@@ -1,0 +1,95 @@
+/* CSS document for the Policy */
+
+/* Import of the Fonts
+(It uses another CSS file for the Fonts to make a better organization) */
+@import url('./Policy\ -\ Fonts.css');
+/* End of the Import */
+
+.details {
+    border: 1px solid #AAA;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    transition: all 1s;
+}
+
+.summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    transition: all 1s;
+}
+
+.details[open] {
+    padding: .5em;
+}
+
+.details[open] .summary {
+    border-bottom: 1px solid #AAA;
+    margin-bottom: .5em;
+}
+
+/* Global Styling for the <body> element */
+body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #242424;
+    color: #EEEE;
+    font-family: Roboto;
+}
+
+/* End of the Global Styling */
+
+/* Styling for the Main Title of the Page */
+.main-title-box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+.main-title-left {
+    float: left;
+    font-size: 30px;
+    font-family: Fontello;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.main-title {
+    font-family: Fontello;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-title-right {
+    float: right;
+    font-size: 30px;
+    font-family: Fontello;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+/* End of the Main Title Styling */
+
+/* CSS for the Page Layout & Styling */
+.page-width {
+    justify-content: center;
+    align-content: center;
+    border-color: #EEE;
+    border-style: solid;
+    border-width: 3.20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #FEFEFE;
+    padding: 5px;
+}
+
+/* End of the Page Layout & Styling CSS */
+
+.no-select {
+    user-select: none;
+}

@@ -1,0 +1,78 @@
+/* Tech Tree CSS */
+
+:root {
+	
+}
+
+body {
+	font-family: Font;
+	background-color: #454545;
+	color: white;
+}
+
+pre {
+	background-color: #252525;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Consolas;
+	color: white;
+	max-width: 500px;
+	font-size: 14px;
+}
+
+pre::selection {
+	background-color: #FFD27E;
+	color: white;
+}
+
+@font-face  {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.ttf');
+	src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+@font-face  {
+	font-family: 'Consolas';
+	src: url('../Assets/Misc/Fonts/Consolas.ttf');
+}
+
+.img-32 {
+	width: 16px;
+	transition: all 1s;
+	float: right;
+	display: container;
+}
+
+.img-64 {
+	width: 16px;
+	transition: all 1s;
+	float: right;
+}
+
+.img-96 {
+	width: 16px;
+	transition: all 1s;
+	float: right;
+}
+
+.img-128 {
+	width: 16px;
+	transition: all 1s;
+	float: right;
+}
+
+.img-32:hover {
+	width: 32px;
+}
+
+.img-64:hover {
+	width: 64px;
+}
+
+.img-96:hover {
+	width: 96px;
+}
+
+.img-128:hover {
+	width: 128px;
+}

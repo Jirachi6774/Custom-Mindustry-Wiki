@@ -1,0 +1,368 @@
+/* Item & Liquid Colors from Mindustry */
+
+/* Items */
+#copper {
+	color: #d99d73;
+}
+
+#lead {
+	color: #8c7fa9;
+}
+
+#plastanium {
+	color: #cbd97f;
+}
+
+#phase-fabric {
+	color: #f4ba6e;
+}
+
+#surge-alloy {
+	color: #f3e979;
+}
+
+#spore-pod {
+	color: #7457ce;
+}
+
+#blast-compound {
+	color: #ff795e;
+}
+
+#pyratite {
+	color: #ffaa5f;
+}
+
+#metaglass {
+	color: #ebeef5;
+}
+
+#graphite {
+	color: #b2c6d2;
+}
+
+#sand {
+	color: #f7cba4;
+}
+
+#coal {
+	color: #272727;
+}
+
+#titanium {
+	color: #8da1e3;
+}
+
+#thorium {
+	color: #f9a3c7;
+}
+
+#scrap {
+	color: #777777;
+}
+
+#silicon {
+	color: #53565c;
+}
+
+/* Items End */
+
+/* Liquids */
+#water {
+	color: #596ab8ff;
+}
+
+#slag {
+	color: #ffa166ff;
+}
+
+#oil {
+	color: #313131ff;
+}
+
+#cryofluid {
+	color: #6ecdecff;
+}
+
+/* Liquids End */
+
+/* Logic */
+#logic {
+	color: #be92f7;
+}
+
+/* Logic End */
+
+/* Team Colors */
+.sharded {
+	color: #FFD27E;
+	text-decoration-color: #FFD27E;
+}
+
+.crux {
+	color: #F15454;
+	text-decoration-color: #F15454;
+}
+
+.derelict {
+	color: #B7B8C8;
+	text-decoration-color: #B7B8C8;
+}
+
+.green {
+	color: #54d67d;
+	text-decoration-color: #54d67d;
+}
+
+.blue {
+	color: #554deb;
+	text-decoration-color: #554deb;
+}
+
+.purple {
+	color: #a488eb;
+	text-decoration-color: #a488eb;
+}
+
+/* End of Team Colors */
+
+/* Statuses */
+#burning {
+	color: #FFC454;
+}
+
+#spore-slowed {
+	color: #7457CE;
+}
+
+#tarred {
+	color: #313131;
+}
+
+#overdrive {
+	color: #FFD27E;
+}
+
+#overclock {
+	color: #FFD27E;
+}
+
+#guardian {
+	color: #F15454;
+}
+
+#shocked {
+	color: #A8D8FF;
+}
+
+#blasted {
+	color: #FF785E;
+}
+
+#freezing {
+	color: #6ECDEC;
+}
+
+#unmoving {
+	color: #454545;
+}
+
+#healing-flood {
+	color: null;
+}
+
+#confused {
+	color: null;
+}
+
+#wet {
+	color: #4168E0;
+}
+
+#melting {
+	color: #FFA066;
+}
+
+#sapped {
+	color: #665C9F;
+}
+
+#electrified {
+	color: #98FFA8;
+}
+
+/* Statuses End */
+
+/* Extra Statuses */
+#slow {
+	color: #A2A2A2;
+}
+
+#shielded {
+	color: #FFD27E;
+}
+
+#disarmed {
+	color: #E8EAD2;
+}
+
+#corroded {
+	color: #A0B46E;
+}
+
+#muddy {
+	color: #46382A;
+}
+
+/* End Extra Statuses */
+
+/* Unit Colors */
+#dagger {
+	color: #FFA664;
+}
+
+#mace {
+	color: #FF624D;
+}
+
+#crawler {
+	color: #BF92F8;
+}
+
+#atrax {
+	color: #BF92F8;
+}
+
+#spiroct {
+	color: #BF92F8;
+}
+
+#arkyid {
+	color: #BF92F8;
+}
+
+#toxopid {
+	color: #BF92F8;
+}
+
+#flare {
+	color: #FFA664;
+}
+
+#horizon {
+	color: #FFA664;
+}
+
+#zenith {
+	color: #FFA664;
+}
+
+#antumbra {
+	color: #FFA664;
+}
+
+#eclipse {
+	color: #FFA664;
+}
+
+#fortress {
+	color: #FFA664;
+}
+
+#mono {
+	color: #84F490;
+}
+
+#poly {
+	color: #84F490;
+}
+
+#mega {
+	color: #84F490;
+}
+
+#quad {
+	color: #84F490;
+}
+
+#oct {
+	color: #84F490;
+}
+
+#risso {
+	color: #FFA664;
+}
+
+#minke {
+	color: #FFA664;
+}
+
+#bryde {
+	color: #FFA664;
+}
+
+#sei {
+	color: #FFA664;
+}
+
+#omura {
+	color: #FFA664;
+}
+
+#scepter {
+	color: #FFA664;
+}
+
+#retusa {
+	color: #84F490;
+}
+
+#oxynoe {
+	color: #84F490;
+}
+
+#cyerce {
+	color: #84F490;
+}
+
+#aegires {
+	color: #84F490;
+}
+
+#navanax {
+	color: #84F490;
+}
+
+#alpha {
+	color: #FFD27E;
+}
+
+#beta {
+	color: #FFD27E;
+}
+
+#gamma {
+	color: #FFD27E;
+}
+
+#nova {
+	color: #FFD27E;
+}
+
+#pulsar {
+	color: #84F490;
+}
+
+#quasar {
+	color: #84F490;
+}
+
+#vela {
+	color: #84F490;
+}
+
+#corvus {
+	color: #84F490;
+}
+
+/* End Unit Colors*/

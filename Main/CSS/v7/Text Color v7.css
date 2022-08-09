@@ -1,0 +1,141 @@
+/* Text Colors for the v7 HTML Document */
+
+/* Items */
+#beryllium {
+	color: #3a8f64;
+}
+
+#tungsten {
+	color: #768a9a;
+}
+
+#oxide {
+	color: #e4ffd6;
+}
+
+#carbide {
+	color: #89769a;
+}
+
+/* Items End */
+
+/* Liquids */
+#cyanogen {
+	color: #89e8b699;
+}
+
+#arkycite {
+	color: #84a94bff;
+}
+
+#ozone {
+	color: #fc81dd99;
+}
+
+#hydrogen {
+	color: #9eabf799;
+}
+
+#nitrogen {
+	color: #efe3ff99;
+}
+
+/* Liquids End */
+
+/* Teams */
+.malis {
+	color: #A27CE5;
+	text-decoration-color: #A27CE5;
+}
+
+/* Teams End */
+
+/* Units */
+#anthicus-missile {
+	color: #CFEEFE;
+}
+
+#anthicus {
+	color: #CFEEFE;
+}
+
+#assembly-drone {
+	color: #FFD27E;
+}
+
+#avert {
+	color: #BF92F8;
+}
+
+#cleroi {
+	color: #CFEEFE;
+}
+
+#collaris {
+	color: #CFEEFE;
+}
+
+#conquer {
+	color: #FFD27E;
+}
+
+#disrupt-missile {
+	color: #BF92F8;
+}
+
+#disrupt {
+	color: #BF92F8;
+}
+
+#emanate {
+	color: #FFD27E;
+}
+
+#evoke {
+	color: #FFD27E;
+}
+
+#incite {
+	color: #FFD27E;
+}
+
+#locus {
+	color: #FFD27E;
+}
+
+#manifold {
+	color: #FFD27E;
+}
+
+#merui {
+	color: #CFEEFE;
+}
+
+#obviate {
+	color: #BF92F8;
+}
+
+#precept {
+	color: #FFD27E;
+}
+
+#stell {
+	color: #FFD27E;
+}
+
+#tecta {
+	color: #CFEEFE;
+}
+
+#vanquish {
+	color: #FFD27E;
+}
+
+/* Units End */
+
+/* Logic */
+#processor {
+	color: #FFD27E;
+}
+
+/* Logic End */

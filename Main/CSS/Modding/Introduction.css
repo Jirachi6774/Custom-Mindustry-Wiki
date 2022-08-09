@@ -1,0 +1,160 @@
+/* Styling file for the Introduction of Modding inside Mindustry */
+
+@font-face {
+    font-family: Roboto;
+    src: url('../../Assets/Misc/Fonts/Roboto.ttf');
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url('../../Assets/Misc/Fonts/RobotoMono.ttf');
+}
+
+@font-face {
+    font-family: Fontello;
+    src: url('../../Assets/Misc/Fonts/Font.ttf');
+    src: url('../../Assets/Misc/Fonts/Font.woff');
+}
+
+body {
+    font-family: Roboto;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+pre {
+    font-family: RobotoMono;
+    display: flow-root;
+    line-height: 1.4;
+    position: relative;
+    color: #546268;
+    background: #EEEEEE;
+    white-space: pre;
+    padding: 12px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    font-size: 14.20px;
+    max-width: max-content;
+    border-color: #FFD57E;
+    border-style: solid;
+    border-width: 0.01px;
+}
+
+.code-header {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+code {
+    border-radius: 5px;
+    white-space: pre;
+    color: #546268;
+    background: #EEEEEE;
+    font-family: RobotoMono;
+    padding-left: 3.75px;
+    padding-right: 3.75px;
+    font-size: 12.20px;
+    vertical-align: middle;
+}
+
+li {
+    line-height: 1.4;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.navigation-box {
+    width: content;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    margin-top: -12px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 15px black;
+    background: #D4816B;
+    user-select: none;
+    position: static;
+}
+
+.navigation-box-footer {
+    width: content;
+    padding-top: 1px;
+    padding-bottom: 6px;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: static;
+    user-select: none;
+    background: #D4816B;
+    box-shadow: 0 -1px 15px black;
+}
+
+.navigation-text {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Fontello;
+    text-shadow: 0.50px 0.50px 4px black;
+}
+
+.navigation-text-link {
+    color: #FFFFFF;
+}
+
+.navigation-text-link:hover {
+    text-shadow: 0 0 5px #EEEEEE;
+    cursor: pointer;
+}
+
+.header-1 {
+    font-family: Roboto;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.header-2 {
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.icon {
+    display: flex;
+    float: left;
+    vertical-align: baseline;
+    width: 30px;
+    transform: translateX(-20px);
+}
+
+table {
+    background-color: #FFFFFF;
+    border: .05rem solid rgba(0, 0, 0, .12);
+    border-radius: .1rem;
+    display: inline-block;
+    max-width: 100%;
+    overflow: auto;
+    touch-action: auto;
+    margin: 0;
+    width: 100%;
+    border-collapse: initial;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}

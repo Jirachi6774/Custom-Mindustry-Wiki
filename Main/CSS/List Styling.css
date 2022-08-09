@@ -1,0 +1,18 @@
+/* Styling for the Upcoming Things List */
+
+body {
+	background-image: url('../Assets/Misc/Space.png');
+	background-position: center center;
+	color: #FFFFFF;
+	font-family: Font;
+}
+
+@font-face  {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.ttf');
+	src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+.title {
+	text-align: center;
+}

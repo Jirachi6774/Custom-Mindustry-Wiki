@@ -1,0 +1,48 @@
+/* Styling for the 404 Error page */
+
+@font-face {
+    font-family: Terminus;
+    src: url(../Fonts/Terminus\ OneShot.ttf);
+}
+
+body {
+    font-family: Terminus;
+    color: white;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAt0lEQVR4nMXXSQ7AIAgF0C44R1e9/4m68iIdFpoYcUDgw9Km7Uv8YKTzvJ6jUyndvUfi+v7DrtPsJSvE/x0OMQQgEFOAN2IJ4IlYBnghRAAPBPXSiUJQlkQhyhZEIaoMRCCaEKIRbBcgEd02RCGGcwCBmA4ib8TSJPRELI9iL4ToLPBAiA8ja4QYYI3YAlgitgFWCBXAAqEGaBEmAA2CEJePUVGWRCHKFkQhqgxEIJoQohFsFyARL5eFu+DmFG+aAAAAAElFTkSuQmCC');
+}
+
+.main-title-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: block;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: ghostwhite;
+    text-decoration-thickness: 4px;
+    max-width: 240px;
+}
+
+.sub-text-box {
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.spinner {
+    width: 60px;
+    display: flex;
+    float: right;
+    animation-name: spinner;
+    animation-duration: 0.50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: static;
+    user-select: none;
+}
+
+@keyframes spinner {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}

@@ -1,0 +1,590 @@
+/* Styling for the v7 build of Mindustry */
+
+:root {
+	cursor: url('../../Assets/Cursor/True Cursors/Cursor.cur'), default;
+	/* Old cursor embed
+	cursor: url('../../Assets/Cursor/Cursor.png') 30 24, default; */
+}
+
+::selection {
+	background-color: rgba(255, 210, 128, 0.5);
+	text-shadow: 0 0 4px #FFD27E;
+}
+
+body {
+	background-image: url('../../Assets/V7/Misc/Erekir Metal.png');
+	color: #EEEEEE;
+	font-family: Font;
+	/* Custom Cursor Stuff */
+	cursor: url('../../Assets/Cursor/True Cursors/Cursor.cur'), default;
+	/* Old cursor embed
+	cursor: url('../../Assets/Cursor/Cursor.png') 30 24, default;*/
+	/* Custom Cursor Stuff End */
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('../../Assets/Misc/Fonts/Font.woff');
+	src: url('../../Assets/Misc/Fonts/Font.ttf');
+}
+
+@font-face {
+	font-family: 'Tech';
+	src: url('../../Assets/Misc/Fonts/Tech.ttf');
+}
+
+br {
+	user-select: none;
+}
+
+.head {
+	margin: 2px;
+}
+
+.head-img {
+	width: 100%;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.white-space {
+	border-style: none;
+	border-color: rgba(255, 255, 255, 0);
+	height: 5px;
+}
+
+.text-box {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.text::selection {
+	background-color: rgba(238, 238, 238, 0.50);
+	text-shadow: 0 0 5px #212121;
+}
+
+.TOC-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.TOC-flex::selection {
+	text-shadow: none;
+}
+
+.TOC-figure {
+	margin: 2px;
+	text-align: center;
+	font-size: 13px;
+	background-image: url('../../Assets/Misc/Space.png');
+	box-shadow: 0 0 9px black;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 450px;
+	height: 200px;
+	overflow: scroll;
+	animation: TOC-figure 140s infinite ease;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.TOC-figure {
+	text-shadow: none;
+}
+
+/* Jump Links */
+
+.jump:link {
+	/* Custom Cursor Stuff */
+	cursor: url('../../Assets/Cursor/True Cursors/Hand.cur'), default;
+	/* Old cursor embed
+	cursor: url('../../Assets/Cursor/Hand.png') 30 24, default; */
+	/* Custom Cursor Stuff End */
+}
+
+.jump::selection {
+	text-shadow: none;
+}
+
+.jump:hover {
+	/* Custom Cursor Stuff */
+	cursor: url('../../Assets/Cursor/True Cursors/Hand.cur'), default;
+	/* Old cursor embed
+	cursor: url('../../Assets/Cursor/Hand.png') 30 24, default; */
+	text-shadow: 0 0 5px currentColor;
+	/* Custom Cursor Stuff End */
+}
+
+.target:target {
+	color: #FFD27E;
+	text-shadow: 0 0 8px #212121;
+	animation: target 2s infinite;
+	cursor: url('../../Assets/Cursor/True Cursors/Cursor.cur'), default;
+	/* Old cursor embed
+	cursor: url('../../Assets/Cursor/Cursor.png') 30 24, default; */
+}
+
+@keyframes target {
+	50% {
+		color: white;
+	}
+}
+
+/* Jump Links End */
+
+@keyframes TOC-figure {
+	10% {
+		background-position: right top;
+	}
+
+	20% {
+		background-position: center top;
+	}
+
+	30% {
+		background-position: left bottom;
+	}
+
+	40% {
+		background-position: right bottom;
+	}
+
+	50% {
+		background-position: center;
+	}
+
+	60% {
+		background-position: left top;
+	}
+
+	70% {
+		background-position: left center;
+	}
+
+	80% {
+		background-position: right top;
+	}
+
+	90% {
+		background-position: center center;
+	}
+}
+
+.scroll-box {
+	scroll-behavior: smooth;
+}
+
+/* Old cursor embed
+.scroll-box:hover {
+	cursor: url(../../Assets/Cursor/Drill.png) 30 24, default;
+}
+*/
+
+body::-webkit-scrollbar {
+	width: 10px;
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-track {
+	background-image: url('../../Assets/Misc/Slider/Slider.png');
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0);
+	background-image: url('../../Assets/Misc/Slider/Slider Knob Over.png');
+	border-radius: 0;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(255, 255, 255, 0);
+	background-image: url('../../Assets/Misc/Slider/Slider Knob Over.png');
+}
+
+/* Scroll Bar */
+
+/* Width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0);
+	/* background-image: url('../../Assets/Misc/Slider/Slider.png'); */
+	/* background-repeat: repeat-y; */
+	/* background-size: 100%; */
+	border-radius: 0 5px 0 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	/* background: rgba(136, 136, 136, 0.5); */
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url('../../Assets/Misc/Slider/Slider Knob.png');
+	/* border-radius: 10px; */
+	border-radius: 0 5px 5px 0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	/* background: #555555; */
+	background-image: url('../../Assets/Misc/Slider/Slider Knob Over.png');
+	background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-corner {
+	background: rgba(255, 255, 255, 0);
+	/* background-image: url('../../Assets/Misc/Slider/Slider Knob Over.png'); */
+}
+
+/* Scroll Bar Ending */
+
+.box {
+	background-image: url('../../Assets/V7/Misc/Brown Metal.png');
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px 10px;
+	max-width: 470px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	box-shadow: 0 0 5px black;
+	text-shadow: 2px 0 3px black;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.flex-image {
+	display: flex;
+	float: right;
+	width: 32px;
+	-webkit-user-select: none;
+	user-select: none;
+	position: relative;
+}
+
+.box-title {
+	text-shadow: 0 0 5px currentColor;
+}
+
+.box-img {
+	display: flex;
+}
+
+.small-img {
+	width: 16px;
+	-webkit-user-select: none;
+	user-select: none;
+	display: flexbox;
+	vertical-align: baseline;
+	transition: all 0.5s;
+}
+
+.button-flex {
+	display: flexbox;
+	user-select: none;
+}
+
+/* Button Styling */
+.button {
+	background-color: #212121;
+	font-family: Font;
+	justify-content: center;
+	font-size: 11px;
+	color: white;
+	padding: 5px;
+	border-color: #FFD27E;
+	border-radius: 50px;
+	border-style: solid;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: url('../../Assets/Cursor/True Cursors/Hand.cur'), pointer;
+	/* Old cursor embed
+	cursor: url(../../Assets/Cursor/Hand.png) 30 24, pointer; */
+	margin-top: 1.50px;
+	margin-bottom: 1.50px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.button::selection {
+	text-shadow: none;
+}
+
+/* Button Styling End */
+
+.button:hover {
+	border-color: #A27CE5;
+	-webkit-user-select: none;
+	user-select: none;
+	text-shadow: 0 0 5px #A27CE5;
+	box-shadow: 0 0 5px #A27CE5;
+}
+
+.pulse:hover {
+	transition: all 0.50s ease-in-out;
+}
+
+.static-button {
+	background-color: #212121;
+	font-family: Font;
+	font-size: 11px;
+	color: white;
+	padding: 5px;
+	border-color: #FFD27E;
+	border-radius: 50px;
+	border-style: solid;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: url('../../Assets/Cursor/True Cursors/Hand.cur'), pointer;
+	/* Old cursor embed
+	cursor: url(../../Assets/Cursor/Hand.png) 30 24, pointer; */
+	margin-top: 1.50px;
+	margin-bottom: 1.50px;
+	text-align: center;
+	justify-content: center;
+}
+
+.static-button:active {
+	border-color: #A27CE5;
+	-webkit-user-select: none;
+	user-select: none;
+	text-shadow: 0 0 5px #A27CE5;
+	color: #A27CE5;
+	box-shadow: 0 0 5px #A27CE5;
+}
+
+/* Subsections */
+.subsection {
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: 3px;
+	text-decoration-color: currentColor;
+}
+
+.subsection::selection {
+	background-color: rgba(132, 245, 145, 0.50);
+	text-shadow: 0 0 4px #84F591;
+}
+
+/* Subsections End */
+
+/*
+.content-center {
+	display: flex;
+	flex-wrap: wrap;
+}
+*/
+
+.main-title {
+	font-size: 18px;
+}
+
+.main-title::selection {
+	text-shadow: 0 0 4px #A27CE5;
+	background-color: rgba(162, 124, 229, 0.50);
+}
+
+.texture-update-smaller {
+	font-style: italic;
+	font-size: 8px;
+	text-shadow: 0 0 3px white;
+}
+
+.texture-update-smaller::selection {
+	background-color: rgba(238, 238, 238, 0.50);
+}
+
+.texture-update {
+	font-style: italic;
+	font-size: 15px;
+	text-shadow: 0 0 3px white;
+	animation: texture-update 2s infinite;
+}
+
+.texture-update::selection {
+	background-color: rgba(238, 238, 238, 0.50);
+}
+
+@keyframes texture-update {
+	50% {
+		text-shadow: 0 0 5px #FFD27E;
+	}
+
+	50% {
+		color: #FFD27E;
+	}
+}
+
+.removed {
+	text-decoration-line: line-through;
+	text-decoration-color: #F15454;
+	text-decoration-thickness: 4px;
+}
+
+.removed-text {
+	color: #F15454;
+	font-style: italic;
+	font-size: 13px;
+	animation: removed-text 1s infinite;
+}
+
+.removed-text::selection {
+	background-color: rgba(241, 84, 84, 0.50);
+	text-shadow: 0 0 4px black;
+}
+
+@keyframes removed-text {
+	50% {
+		text-shadow: 0 0 3px currentColor;
+	}
+}
+
+.desc-text {
+	font-style: italic;
+	color: #FFD27E;
+}
+
+.desc-text::selection {
+	background-color: rgba(238, 238, 238, 0.50);
+	text-shadow: 0 0 4px black;
+}
+
+.strike-select::selection {
+	text-decoration-color: #F15454;
+	background-color: rgba(241, 84, 84, 0.50);
+	text-shadow: 0 0 4px #F15454;
+}
+
+/* Selection Label Colors */
+
+.copyright {
+	text-align: center;
+	font-size: 15px;
+	background: url('../../Assets/V7/Environment Block/Misc/Block Core Zone.png');
+	background-position: center center;
+	background-repeat: repeat;
+	padding: 5.10px;
+	border-radius: 5.50px;
+	text-shadow: 0 0 2px black;
+	box-shadow: 0 0 5px #9A854D;
+	text-shadow: 2px 0 4px black;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.copy-mindustry {
+	color: #FFD27E;
+}
+
+.copy-mindustry:hover {
+	text-shadow: 0 0 4px #212121;
+}
+
+.copy-mindustry::selection {
+	text-shadow: none;
+}
+
+.copy-anuken {
+	color: #A488EB;
+}
+
+.copy-anuken:hover {
+	text-shadow: 0 0 4px #212121;
+}
+
+.copy-anuken::selection {
+	text-shadow: none;
+}
+
+.copy-jirachi6774 {
+	color: #8CA4F5;
+}
+
+.copy-jirachi6774:hover {
+	text-shadow: 0 0 4px #212121;
+}
+
+.copy-jirachi6774::selection {
+	text-shadow: none;
+}
+
+.copy-titannidoking {
+	color: #84F591;
+}
+
+.copy-titannidoking:hover {
+	text-shadow:  0 0 4px #212121;
+}
+
+.copy-titannidoking::selection {
+	text-shadow: none;
+}
+
+.code-info {
+	font-family: Font;
+	font-size: 14px;
+	text-align: left;
+}
+
+.code-info-box {
+	display: block;
+	color: #EEEEEE;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10.50px;
+	background: url('../../Assets/Misc/Black BG.png');
+	background-position: center center;
+	background-repeat: repeat;
+	max-width: 500px;
+	border-radius: 5.50px;
+	text-shadow: 0 0 6px white;
+	box-shadow: 0 0 5px black;
+	font-synthesis: weight;
+	font-family: Font;
+	animation: code-scroll 5s infinite;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+@keyframes code-scroll {
+	50% {
+		background-position: right top;
+	}
+}
+
+.code-r {
+	/* Code RGB = “R”ed */
+	color: #F29583;
+}
+
+.code-g {
+	/* Code RGB = “G”reen */
+	color: #84F591;
+}
+
+.code-b {
+	/* Code RGB = “B”lue */
+	color: #A5B9FA;
+}
+
+.code-info-box::selection {
+	text-shadow: none;
+}
+
+.copyright::selection {
+	text-shadow: none;
+}
+
+.code-select::selection {
+	text-shadow: none;
+}

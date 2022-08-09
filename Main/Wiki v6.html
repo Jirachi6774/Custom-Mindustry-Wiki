@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+	I see you have chosen to look through the code of this HTML file, I wonder why. (￣ω￣;)
+	There normally should be a reason of why you wanted to look through here.
+
+			░█████╗░  ░██╗░░░░░░░██╗  ░█████╗░		██╗░░░██╗░█████╗░░░░░█████╗░
+			██╔══██╗  ░██║░░██╗░░██║  ██╔══██╗		██║░░░██║██╔═══╝░░░░██╔══██╗
+			██║░░██║  ░╚██╗████╗██╔╝  ██║░░██║		╚██╗░██╔╝██████╗░░░░██║░░██║
+			██║░░██║  ░░████╔═████║░  ██║░░██║		░╚████╔╝░██╔══██╗░░░██║░░██║
+			╚█████╔╝  ░░╚██╔╝░╚██╔╝░  ╚█████╔╝		░░╚██╔╝░░╚█████╔╝██╗╚█████╔╝
+			░╚════╝░  ░░░╚═╝░░░╚═╝░░  ░╚════╝░		░░░╚═╝░░░░╚════╝░╚═╝░╚════╝░
+
+	Oh well, have fun reading through this mess of HTML code. (´︶｀)
+-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mindustry Wiki – v6.0</title>
+	<!-- CSS Linking -->
+	<link rel="stylesheet" href="./CSS/Wiki Styling.css" />
+	<link rel="stylesheet" href="./CSS/Text Color.css" />
+	<!-- End CSS Linking -->
+	<link rel="shortcut icon" href="./Assets/Misc/Favicon Core.png" type="image/x-icon" />
+</head>
+
+<body>
+	<header class="head">
+		<img src="./Assets/Misc/Mindustry Title.png" class="head-img" />
+	</header>
+
+	<hr class="white-space">
+
+	<div class="text-box" style="text-align: center;">
+		<p>This is an <span id="slag">HTML</span> document that goes more into detail about each thing inside of game,
+			<span class="sharded">Mindustry</span>.<br>
+			This document specifically goes over the <span class="derelict">v6.0</span> version of the game.<br>
+			For info about <span class="derelict">v7.0</span> go here:
+		</p>
+		<div class="button-box">
+			<button onclick="window.location.href='./Main Page.html'" class="button pulse">Main Page</button>
+			<button onclick="window.location.href='./Wiki v7.html'" class="button pulse">Mindustry v7.0</button>
+			<button onclick="window.location.href='./Misc HTML/Color Palettes.html'" class="button pulse"
+				role="button">Palette Database</button>
+		</div>
+	</div>
+
+	<!-- Start of the TOC Table -->
+
+	<div>
+		<h2>TOC</h2>
+		<div class="scroll-box">
+			<div class="TOC-flex">
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#environment-blocks'">Environment Blocks</h3>
+					<p class="jump" onclick="window.location.href='#enemy-spawn'">Enemy Spawn</p>
+					<p class="jump" onclick="window.location.href='#deep-water'">Deep Water</p>
+					<p class="jump" onclick="window.location.href='#water'">Water</p>
+					<p class="jump" onclick="window.location.href='#tainted-water'">Tainted Water</p>
+					<p class="jump" onclick="window.location.href='#deep-tainted-water'">Deep Tainted Water</p>
+					<p class="jump" onclick="window.location.href='#dark-sand-tainted-water'">Dark Sand Tainted Water
+					</p>
+					<p class="jump" onclick="window.location.href='#sand-water'">Sand Water</p>
+					<p class="jump" onclick="window.location.href='#dark-sand-water'">Dark Sand Water</p>
+					<p class="jump" onclick="window.location.href='#tar'">Tar</p>
+					<p class="jump" onclick="window.location.href='#cryofluid'">Cryofluid</p>
+					<p class="jump" onclick="window.location.href='#slag'">Slag</p>
+					<p class="jump" onclick="window.location.href='#space'">Space</p>
+					<p class="jump" onclick="window.location.href='#empty'">Empty</p>
+					<p class="jump" onclick="window.location.href='#stone'">Stone</p>
+					<p class="jump" onclick="window.location.href='#craters'">Craters</p>
+					<p class="jump" onclick="window.location.href='#char'">Char</p>
+					<p class="jump" onclick="window.location.href='#basalt'">Basalt</p>
+					<p class="jump" onclick="window.location.href='#hot-rock'">Hot Rock</p>
+					<p class="jump" onclick="window.location.href='#magma-rock'">Magma Rock</p>
+					<p class="jump" onclick="window.location.href='#sand'">Sand</p>
+					<p class="jump" onclick="window.location.href='#dark-sand'">Dark Sand</p>
+					<p class="jump" onclick="window.location.href='#dirt'">Dirt</p>
+					<p class="jump" onclick="window.location.href='#mud'">Mud</p>
+					<p class="jump" onclick="window.location.href='#dacite'">Dacite</p>
+					<p class="jump" onclick="window.location.href='#grass'">Grass</p>
+					<p class="jump" onclick="window.location.href='#salt'">Salt</p>
+					<p class="jump" onclick="window.location.href='#snow'">Snow</p>
+					<p class="jump" onclick="window.location.href='#ice'">Ice</p>
+					<p class="jump" onclick="window.location.href='#ice-snow'">Ice Snow</p>
+					<p class="jump" onclick="window.location.href='#shale'">Shale</p>
+					<p class="jump" onclick="window.location.href='#moss'">Moss</p>
+					<p class="jump" onclick="window.location.href='#spore-moss'">Spore Moss</p>
+					<p class="jump" onclick="window.location.href='#stone-wall'">Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#spore-wall'">Spore Wall</p>
+					<p class="jump" onclick="window.location.href='#dirt-wall'">Dirt Wall</p>
+					<p class="jump" onclick="window.location.href='#dacite-wall'">Dacite Wall</p>
+					<p class="jump" onclick="window.location.href='#ice-wall'">Ice Wall</p>
+					<p class="jump" onclick="window.location.href='#snow-wall'">Snow Wall</p>
+					<p class="jump" onclick="window.location.href='#dune-wall'">Dune Wall</p>
+					<p class="jump" onclick="window.location.href='#sand-wall'">Sand Wall</p>
+					<p class="jump" onclick="window.location.href='#salt-wall'">Salt Wall</p>
+					<p class="jump" onclick="window.location.href='#shrubs'">Shrubs</p>
+					<p class="jump" onclick="window.location.href='#shale-wall'">Shale Wall</p>
+					<p class="jump" onclick="window.location.href='#spore-pine'">Spore Pine</p>
+					<p class="jump" onclick="window.location.href='#snow-pine'">Snow Pine</p>
+					<p class="jump" onclick="window.location.href='#pine'">Pine</p>
+					<p class="jump" onclick="window.location.href='#white-tree-dead'">White Tree Dead</p>
+					<p class="jump" onclick="window.location.href='#white-tree'">White Tree</p>
+					<p class="jump" onclick="window.location.href='#spore-cluster'">Spore Cluster</p>
+					<p class="jump" onclick="window.location.href='#boulder'">Boulder</p>
+					<p class="jump" onclick="window.location.href='#snow-boulder'">Snow Boulder</p>
+					<p class="jump" onclick="window.location.href='#shale-boulder'">Shale Boulder</p>
+					<p class="jump" onclick="window.location.href='#sand-boulder'">Sand Boulder</p>
+					<p class="jump" onclick="window.location.href='#dacite-boulder'">Dacite Boulder</p>
+					<p class="jump" onclick="window.location.href='#'">Basalt Boulder</p>
+					<p class="jump" onclick="window.location.href='#'">Metal Floor 1</p>
+					<p class="jump" onclick="window.location.href='#'">Damaged Metal Floor</p>
+					<p class="jump" onclick="window.location.href='#'">Metal Floor 2</p>
+					<p class="jump" onclick="window.location.href='#'">Metal Floor 3</p>
+					<p class="jump" onclick="window.location.href='#'">Metal Floor 5</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 1</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 2</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 3</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 4</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 5</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Panel 6</p>
+					<p class="jump" onclick="window.location.href='#'">Dark Metal</p>
+					<p class="jump" onclick="window.location.href='#'">Pebbles</p>
+					<p class="jump" onclick="window.location.href='#'">Tendrils</p>
+					<p class="jump" onclick="window.location.href='#'">Copper</p>
+					<p class="jump" onclick="window.location.href='#'">Lead</p>
+					<p class="jump" onclick="window.location.href='#'">Scrap</p>
+					<p class="jump" onclick="window.location.href='#'">Coal</p>
+					<p class="jump" onclick="window.location.href='#'">Titanium</p>
+					<p class="jump" onclick="window.location.href='#'">Thorium</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Blocks</h3>
+					<p class="jump" onclick="window.location.href='#'">Phase Weaver</p>
+					<p class="jump" onclick="window.location.href='#alloy-smelter'">Alloy Smelter</p>
+					<p class="jump" onclick="window.location.href='#'">Cryofluid Mixer</p>
+					<p class="jump" onclick="window.location.href='#'">Pyratite Mixer</p>
+					<p class="jump" onclick="window.location.href='#'">Melter</p>
+					<p class="jump" onclick="window.location.href='#'">Separator</p>
+					<p class="jump" onclick="window.location.href='#'">Disassembler</p>
+					<p class="jump" onclick="window.location.href='#'">Spore Press</p>
+					<p class="jump" onclick="window.location.href='#'">Pulverizer</p>
+					<p class="jump" onclick="window.location.href='#'">Coal Centrifuge</p>
+					<p class="jump" onclick="window.location.href='#'">Incinerator</p>
+					<p class="jump" onclick="window.location.href='#'">Copper Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Copper Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Titanium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Titanium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Plastanium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Plastanium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Thorium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Thorium Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Phase Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Phase Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Surge Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Surge Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Door</p>
+					<p class="jump" onclick="window.location.href='#'">Large Door</p>
+					<p class="jump" onclick="window.location.href='#'">Scrap Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Large Scrap Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Huge Scrap Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Gigantic Scrap Wall</p>
+					<p class="jump" onclick="window.location.href='#'">Mender</p>
+					<p class="jump" onclick="window.location.href='#'">Mend Projector</p>
+					<p class="jump" onclick="window.location.href='#'">Overdrive Projector</p>
+					<p class="jump" onclick="window.location.href='#'">Overdrive Dome</p>
+					<p class="jump" onclick="window.location.href='#'">Force Projector</p>
+					<p class="jump" onclick="window.location.href='#'">Shock Mine</p>
+					<p class="jump" onclick="window.location.href='#'">Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Titanium Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Plastanium Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Armored Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Junction</p>
+					<p class="jump" onclick="window.location.href='#'">Bridge Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Phase Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Sorter</p>
+					<p class="jump" onclick="window.location.href='#'">Inverted Sorter</p>
+					<p class="jump" onclick="window.location.href='#'">Router</p>
+					<p class="jump" onclick="window.location.href='#'">Distributor</p>
+					<p class="jump" onclick="window.location.href='#'">Overflow Gate</p>
+					<p class="jump" onclick="window.location.href='#'">Underflow Gate</p>
+					<p class="jump" onclick="window.location.href='#'">Mass Driver</p>
+					<p class="jump" onclick="window.location.href='#'">Mechanical Pump</p>
+					<p class="jump" onclick="window.location.href='#'">Rotary Pump</p>
+					<p class="jump" onclick="window.location.href='#thermal-pump'">Thermal Pump</p>
+					<p class="jump" onclick="window.location.href='#'">Conduit</p>
+					<p class="jump" onclick="window.location.href='#'">Pulse Conduit</p>
+					<p class="jump" onclick="window.location.href='#'">Plated Conduit</p>
+					<p class="jump" onclick="window.location.href='#'">Liquid Router</p>
+					<p class="jump" onclick="window.location.href='#'">Liquid Tank</p>
+					<p class="jump" onclick="window.location.href='#'">Liquid Junction</p>
+					<p class="jump" onclick="window.location.href='#'">Bridge Conduit</p>
+					<p class="jump" onclick="window.location.href='#'">Phase Conduit</p>
+					<p class="jump" onclick="window.location.href='#'">Power Node</p>
+					<p class="jump" onclick="window.location.href='#'">Large Power Node</p>
+					<p class="jump" onclick="window.location.href='#'">Surge Tower</p>
+					<p class="jump" onclick="window.location.href='#'">Battery Diode</p>
+					<p class="jump" onclick="window.location.href='#'">Battery</p>
+					<p class="jump" onclick="window.location.href='#'">Large Battery</p>
+					<p class="jump" onclick="window.location.href='#'">Combustion Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Thermal Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Steam Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Differential Generator</p>
+					<p class="jump" onclick="window.location.href='#'">RTG Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Solar Panel</p>
+					<p class="jump" onclick="window.location.href='#'">Large Solar Panel</p>
+					<p class="jump" onclick="window.location.href='#'">Thorium Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Impact Generator</p>
+					<p class="jump" onclick="window.location.href='#'">Mechanical Drill</p>
+					<p class="jump" onclick="window.location.href='#'">Pneumatic Drill</p>
+					<p class="jump" onclick="window.location.href='#'">Laser Drill</p>
+					<p class="jump" onclick="window.location.href='#'">Airblast Drill</p>
+					<p class="jump" onclick="window.location.href='#'">Water Extractor</p>
+					<p class="jump" onclick="window.location.href='#'">Cultivator</p>
+					<p class="jump" onclick="window.location.href='#'">Oil Extractor</p>
+					<p class="jump" onclick="window.location.href='#'">Core: Shard</p>
+					<p class="jump" onclick="window.location.href='#'">Core: Foundation</p>
+					<p class="jump" onclick="window.location.href='#'">Core: Necleus</p>
+					<p class="jump" onclick="window.location.href='#'">Vault</p>
+					<p class="jump" onclick="window.location.href='#'">Container</p>
+					<p class="jump" onclick="window.location.href='#'">Unloader</p>
+					<p class="jump" onclick="window.location.href='#'">Duo</p>
+					<p class="jump" onclick="window.location.href='#'">Scatter</p>
+					<p class="jump" onclick="window.location.href='#'">Scotch</p>
+					<p class="jump" onclick="window.location.href='#'">Hail</p>
+					<p class="jump" onclick="window.location.href='#'">Wave</p>
+					<p class="jump" onclick="window.location.href='#'">Lancer</p>
+					<p class="jump" onclick="window.location.href='#'">Arc</p>
+					<p class="jump" onclick="window.location.href='#'">Parallax</p>
+					<p class="jump" onclick="window.location.href='#'">Swarmer</p>
+					<p class="jump" onclick="window.location.href='#'">Salvo</p>
+					<p class="jump" onclick="window.location.href='#'">Segment</p>
+					<p class="jump" onclick="window.location.href='#'">Tsunami</p>
+					<p class="jump" onclick="window.location.href='#'">Fuse</p>
+					<p class="jump" onclick="window.location.href='#'">Ripple</p>
+					<p class="jump" onclick="window.location.href='#'">Cyclone</p>
+					<p class="jump" onclick="window.location.href='#'">Foreshadow</p>
+					<p class="jump" onclick="window.location.href='#'">Spectre</p>
+					<p class="jump" onclick="window.location.href='#'">Meltdown</p>
+					<p class="jump" onclick="window.location.href='#command-center'">Command Center</p>
+					<p class="jump" onclick="window.location.href='#'">Ground Factory</p>
+					<p class="jump" onclick="window.location.href='#'">Air Factory</p>
+					<p class="jump" onclick="window.location.href='#'">Naval Factory</p>
+					<p class="jump" onclick="window.location.href='#'">Additive Reconstructor</p>
+					<p class="jump" onclick="window.location.href='#'">Multiplicative Reconstructor</p>
+					<p class="jump" onclick="window.location.href='#'">Exponential Reconstructor</p>
+					<p class="jump" onclick="window.location.href='#'">Tetrative Reconstructor</p>
+					<p class="jump" onclick="window.location.href='#'">Repair Point</p>
+					<p class="jump" onclick="window.location.href='#'">Repair Turret</p>
+					<p class="jump" onclick="window.location.href='#'">Payload Conveyor</p>
+					<p class="jump" onclick="window.location.href='#'">Payload Router</p>
+					<p class="jump" onclick="window.location.href='#'">Power Source</p>
+					<p class="jump" onclick="window.location.href='#'">Power Void</p>
+					<p class="jump" onclick="window.location.href='#'">Item Source</p>
+					<p class="jump" onclick="window.location.href='#'">Item Void</p>
+					<p class="jump" onclick="window.location.href='#'">Liquid Source</p>
+					<p class="jump" onclick="window.location.href='#'">Liquid Void</p>
+					<p class="jump" onclick="window.location.href='#'">Illuminator</p>
+					<p class="jump" onclick="window.location.href='#'">Launch Pad</p>
+					<p class="jump" onclick="window.location.href='#'">Launchpod</p>
+					<p class="jump" onclick="window.location.href='#'">Rally Point</p>
+					<p class="jump" onclick="window.location.href='#'">Resupply Point</p>
+					<p class="jump" onclick="window.location.href='#'">Interplanetary Accelerator</p>
+					<p class="jump" onclick="window.location.href='#'">Message</p>
+					<p class="jump" onclick="window.location.href='#'">Switch</p>
+					<p class="jump" onclick="window.location.href='#'">Micro Processor</p>
+					<p class="jump" onclick="window.location.href='#'">Logic Processor</p>
+					<p class="jump" onclick="window.location.href='#'">Hyper Processor</p>
+					<p class="jump" onclick="window.location.href='#'">Memory Cell</p>
+					<p class="jump" onclick="window.location.href='#'">Memory Bank</p>
+					<p class="jump" onclick="window.location.href='#'">Logic Display</p>
+					<p class="jump" onclick="window.location.href='#'">Large Logic Display</p>
+					<p class="jump" onclick="window.location.href='#'">Graphite Press</p>
+					<p class="jump" onclick="window.location.href='#'">Multi-Press</p>
+					<p class="jump" onclick="window.location.href='#'">Silicon Smelter</p>
+					<p class="jump" onclick="window.location.href='#'">Silicon Crucible</p>
+					<p class="jump" onclick="window.location.href='#'">Kiln</p>
+					<p class="jump" onclick="window.location.href='#'">Plastanium Compressor</p>
+
+					<h3 class="jump" onclick="window.location.href='#'">Misc</h3>
+					<p class="jump" id="blasted" onclick="window.location.href='#'">Env Error</p>
+					<p class="jump" id="blasted" onclick="window.location.href='#'">Error</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Items</h3>
+					<p class="jump" id="copper" onclick="window.location.href='#item-copper'">Copper</p>
+					<p class="jump" id="lead" onclick="window.location.href='#item-lead'">Lead</p>
+					<p class="jump" id="plastanium" onclick="window.location.href='#item-plastanium'">Plastanium</p>
+					<p class="jump" id="phase-fabric" onclick="window.location.href='#item-phase-fabric'">Phase Fabric</p>
+					<p class="jump" id="surge-alloy" onclick="window.location.href='#item-surge-alloy'">Surge Alloy</p>
+					<p class="jump" id="spore-pod" onclick="window.location.href='#item-spore-pod'">Spore Pod</p>
+					<p class="jump" id="blast-compound" onclick="window.location.href='#item-blast-compound'">Blast Compound</p>
+					<p class="jump" id="pyratite" onclick="window.location.href='#item-pyratite'">Pyratite</p>
+					<p class="jump" id="metaglass" onclick="window.location.href='#item-metaglass'">Metaglass</p>
+					<p class="jump" id="graphite" onclick="window.location.href='#item-graphite'">Graphite</p>
+					<p class="jump" id="sand" onclick="window.location.href='#item-sand'">Sand</p>
+					<p class="jump" id="coal" onclick="window.location.href='#item-coal'">Coal</p>
+					<p class="jump" id="titanium" onclick="window.location.href='#item-titanium'">Titanium</p>
+					<p class="jump" id="thorium" onclick="window.location.href='#item-thorium'">Thorium</p>
+					<p class="jump" id="scrap" onclick="window.location.href='#item-scrap'">Scrap</p>
+					<p class="jump" id="silicon" onclick="window.location.href='#item-silicon'">Silicon</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Liquids</h3>
+					<p class="jump" id="water" onclick="window.location.href='#'">Water</p>
+					<p class="jump" id="slag" onclick="window.location.href='#'">Slag</p>
+					<p class="jump" id="oil" onclick="window.location.href='#'">Oil</p>
+					<p class="jump" id="cryofluid" onclick="window.location.href='#'">Cryofluid</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Logic</h3>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Message</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Switch</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Micro Processor</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Logic Processor</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Hyper Processor</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Memory Cell</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Memory Bank</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Logic Display</p>
+					<p class="jump" id="logic" onclick="window.location.href='#'">Large Logic Display</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#planets'">Planets</h3>
+					<p class="jump" onclick="window.location.href='#planet-serpulo'">Serpulo</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#statuses'">Statuses</h3>
+					<p class="jump" id="burning" onclick="window.location.href='#status-burning'">Burning</p>
+					<p class="jump" id="spore-slowed" onclick="window.location.href='#status-spore-slowed'">Spore Slowed
+					</p>
+					<p class="jump" id="tarred" onclick="window.location.href='#status-tarred'">Tarred</p>
+					<p class="jump" id="overdrive" onclick="window.location.href='#status-overdrive'">Overdrive</p>
+					<p class="jump" id="overclock" onclick="window.location.href='#status-overclock'">Overclock</p>
+					<p class="jump" id="guardian" onclick="window.location.href='#status-guardian'">Guardian</p>
+					<p class="jump" id="shocked" onclick="window.location.href='#status-shocked'">Shocked</p>
+					<p class="jump" id="blasted" onclick="window.location.href='#status-blasted'">Blasted</p>
+					<p class="jump" id="freezing" onclick="window.location.href='#status-freezing'">Freezing</p>
+					<p class="jump" id="unmoving" onclick="window.location.href='#status-unmoving'">Unmoving</p>
+					<p class="jump" id="healing-flood" onclick="window.location.href='#status-healing-flood'">
+						<strike>Healing Flood</strike></p>
+					<p class="jump" id="confused" onclick="window.location.href='#status-confused'">
+						<strike>Confused</strike></p>
+					<p class="jump" id="wet" onclick="window.location.href='#status-wet'">Wet</p>
+					<p class="jump" id="melting" onclick="window.location.href='#status-melting'">Melting</p>
+					<p class="jump" id="sapped" onclick="window.location.href='#status-sapped'">Sapped</p>
+					<p class="jump" id="electrified" onclick="window.location.href='#status-electrified'">Electrified
+					</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#extra-statuses'">Extra Statuses</h3>
+					<p class="jump" id="slow" onclick="window.location.href='#status-slow'">Slow</p>
+					<p class="jump" id="shielded" onclick="window.location.href='#status-shielded'">Shielded</p>
+					<p class="jump" id="disarmed" onclick="window.location.href='#status-disarmed'">Disarmed</p>
+					<p class="jump" id="corroded" onclick="window.location.href='#status-corroded'">Corroded</p>
+					<p class="jump" id="muddy" onclick="window.location.href='#status-muddy'">Muddy</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Units</h3>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Dagger</p>
+					<p class="jump" id="mace" onclick="window.location.href='#'">Mace</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Crawler</p>
+					<p class="jump" id="atrax" onclick="window.location.href='#'">Atrax</p>
+					<p class="jump" id="spiroct" onclick="window.location.href='#'">Spiroct</p>
+					<p class="jump" id="arkyid" onclick="window.location.href='#'">Arkyid</p>
+					<p class="jump" id="toxopid" onclick="window.location.href='#'">Toxopid</p>
+					<p class="jump" id="flare" onclick="window.location.href='#'">Flare</p>
+					<p class="jump" id="horizon" onclick="window.location.href='#'">Horizon</p>
+					<p class="jump" id="zenith" onclick="window.location.href='#'">Zenith</p>
+					<p class="jump" id="antumbra" onclick="window.location.href='#'">Antumbra</p>
+					<p class="jump" id="eclipse" onclick="window.location.href='#'">Eclipse</p>
+					<p class="jump" id="fortress" onclick="window.location.href='#'">Fortress</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Mono</p>
+					<p class="jump" id="poly" onclick="window.location.href='#'">Poly</p>
+					<p class="jump" id="mega" onclick="window.location.href='#'">Mega</p>
+					<p class="jump" id="quad" onclick="window.location.href='#'">Quad</p>
+					<p class="jump" id="oct" onclick="window.location.href='#'">Oct</p>
+					<p class="jump" id="risso" onclick="window.location.href='#'">Risso</p>
+					<p class="jump" id="minke" onclick="window.location.href='#'">Minke</p>
+					<p class="jump" id="bryde" onclick="window.location.href='#'">Bryde</p>
+					<p class="jump" id="sei" onclick="window.location.href='#'">Sei</p>
+					<p class="jump" id="omura" onclick="window.location.href='#'">Omura</p>
+					<p class="jump" id="scepter" onclick="window.location.href='#'">Scepter</p>
+					<p class="jump" id="retusa" onclick="window.location.href='#'">Retusa</p>
+					<p class="jump" id="oxynoe" onclick="window.location.href='#'">Oxynoe</p>
+					<p class="jump" id="cyerce" onclick="window.location.href='#'">Cyerce</p>
+					<p class="jump" id="aegires" onclick="window.location.href='#'">Aegires</p>
+					<p class="jump" id="navanax" onclick="window.location.href='#'">Navanax</p>
+					<p class="jump" id="alpha" onclick="window.location.href='#'">Alpha</p>
+					<p class="jump" id="beta" onclick="window.location.href='#'">Beta</p>
+					<p class="jump" id="gamma" onclick="window.location.href='#'">Gamma</p>
+					<p class="jump" id="nova" onclick="window.location.href='#'">Nova</p>
+					<p class="jump" id="pulsar" onclick="window.location.href='#'">Pulsar</p>
+					<p class="jump" id="quasar" onclick="window.location.href='#'">Quasar</p>
+					<p class="jump" id="vela" onclick="window.location.href='#'">Vela</p>
+					<p class="jump" id="corvus" onclick="window.location.href='#'">Corvus</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Unit Weapons</h3>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Beam Weapon</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Eruption</p>
+					<p class="jump" id="mace" onclick="window.location.href='#'">Flamethrower</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Heal Shotgun Weapon</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Heal Weapon Mount</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Heal Weapon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Large Artillery</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Large Bullet Mount</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Large Laser Mount</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Large Purple Mount</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Large Weapon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Missiles Mount</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Mount Purple Weapon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Mount Weapon</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Plasma Mount</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Point Defense Mount</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Reign Weapon</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Repair Beam Weapon</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Repair Beam Weapon Center Large</p>
+					<p class="jump" id="mono" onclick="window.location.href='#'">Repair Beam Weapon Center</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Scepter Weapon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Sei Launcher</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Small Basic Weapon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Small Weapon</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Spiroct Weapon</p>
+					<p class="jump" id="crawler" onclick="window.location.href='#'">Toxopid Cannon</p>
+					<p class="jump" id="dagger" onclick="window.location.href='#'">Zenith Missiles</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3 class="jump" onclick="window.location.href='#'">Teams</h3>
+					<p class="jump" class="sharded" onclick="window.location.href='#'">Sharded</p>
+					<p class="jump" class="crux" onclick="window.location.href='#'">Crux</p>
+					<p class="jump" class="derelict" onclick="window.location.href='#'">Derelict</p>
+					<p class="jump" class="blue" onclick="window.location.href='#'">Blue</p>
+					<p class="jump" class="green" onclick="window.location.href='#'">Green</p>
+					<p class="jump" class="purple" onclick="window.location.href='#'">Purple</p>
+					<p class="jump" onclick="window.location.href='#'">249 Other Teams…</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<h3>Credits</h3>
+					<div class="credit-spacing">
+						<p>Creator of the <span id="slag">HTML</span> document:<br>
+							<span id="cryofluid" class="credit-link"
+								onclick="window.location.href='https://twitter.com/Jirachi6774'">@Jirachi6774</span>
+						</p>
+						<p>Creator and Owner of <span class="sharded">Mindustry</span>:<br>
+							<span id="logic" class="credit-link"
+								onclick="window.location.href='https://github.com/Anuken'">Anuken</span>
+						</p>
+						<p>Information Source:<br>
+							<span id="oil" class="credit-link"
+								onclick="window.location.href='https://mindustrygame.github.io/wiki/'">GitHub</span>
+						</p>
+						<p><span id="oil">GitHub</span> Project:<br>
+							<span id="water" class="credit-link"
+								onclick="window.location.href='https://github.com/Anuken/Mindustry'">GitHub/Anuken/Mindustry</span>
+						</p>
+						<p><span id="slag">HTML</span> Software used:<br>
+							<span id="silicon" class="credit-link"
+								onclick="window.location.href='https://play.google.com/store/apps/details?id=com.teejay.trebedit'">Trebedit</span>
+							&
+							<span id="titanium" class="credit-link"
+								onclick="window.location.href='https://code.visualstudio.com/'">Visual Studio
+								Code</span>
+						</p>
+					</div>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<!-- The end of the TOC Table -->
+
+	<div>
+		<article>
+			<h2>Environment Blocks</h2>
+			<div class="box">
+				<p><span class="box-title">Enemy Spawn</span><br>
+					Size: 1×1<br><br>
+					Info: "The Spawn of the <span class="crux">Crux</span> <img src="./Assets/Teams/Team Crux.png"
+						class="small-img" /> Units attacking the Sector.<br>
+					There will be a circle around the Spawn Block, this circle allows you to build inside of but it
+					shows in big letters in front of you:</p>
+				<div class="warn-box">
+					<p style="text-align: center;">
+						<span class="spawn-warn">[</span> <span class="warn">LEAVE DROP POINT IMMEDIATELY</span> <span
+							class="spawn-warn">]</span><br>
+						<span class="spawn-warn">annihilation imminent</span>
+					</p>
+				</div>
+				<mark class="marking">{Insert GIF of Warning Pop-up}</mark>
+				<p>If you stay there when a Wave starts or you have something build inside the circle, it will be
+					annihilated immediately and so are you when the <span class="crux">Crux</span> <img
+						src="./Assets/Teams/Team Crux.png" class="small-img" /> Units drop on the sector."</p>
+			</div>
+
+			<div class="box">
+				<p><span class="box-title">Deep Water</span><br>
+					Size: 1×1<br>
+					Liquid Source: <img src="./Assets/Items/Liquids/Liquid Water.png" class="small-img" /><br>
+					Speed Multiplier: 20%<br>
+					Status: <img src="./Assets/Statuses/Status Wet.png" class="small-img" /><br><br>
+					Info: "Deep Water can be used to get Water (Item) out of using a Mechanical Pump, Rotary Pump or a
+					Thermal Pump.<br>
+					Ground Units that walk over it will start to sink and be destroyed when they're to deep."</p>
+				<mark>{Insert GIF of Deep Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Water</p>
+				<mark>{Insert GIF of Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Tainted Water</p>
+				<mark>{Insert GIF of Tainted Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Deep Tainted Water</p>
+				<mark>{Insert GIF of Deep Tainted Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Dark Sand Tainted Water</p>
+				<mark>{Insert GIF of Dark Sand Tainted Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Sand Water</p>
+				<mark>{Insert GIF of Sand Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Dark Sand Water</p>
+				<mark>{Insert GIF of Dark Sand Water}</mark>
+			</div>
+
+			<div class="box">
+				<p>Tar</p>
+				<mark>{Insert GIF of Tar}</mark>
+			</div>
+
+			<div class="box">
+				<p>Cryofluid</p>
+				<mark>{Insert GIF of Cryofluid}</mark>
+			</div>
+
+			<div class="box">
+				<p>Slag</p>
+				<mark>{Insert GIF of Slag}</mark>
+			</div>
+
+			<div class="box">
+				<p>Space</p>
+			</div>
+
+			<div class="box">
+				<p>Empty</p>
+			</div>
+
+			<div class="box">
+				<p>Stone</p>
+			</div>
+
+			<div class="box">
+				<p>Craters</p>
+			</div>
+
+			<div class="box">
+				<p>Char</p>
+			</div>
+
+			<div class="box">
+				<p>Basalt</p>
+			</div>
+
+			<div class="box">
+				<p>Hot Rock</p>
+			</div>
+
+			<div class="box">
+				<p>Magma Rock</p>
+			</div>
+
+			<div class="box">
+				<p>Sand</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Sand</p>
+			</div>
+
+			<div class="box">
+				<p>Dirt</p>
+			</div>
+
+			<div class="box">
+				<p>Mud</p>
+			</div>
+
+			<div class="box">
+				<p>Dacite</p>
+			</div>
+
+			<div class="box">
+				<p>Grass</p>
+			</div>
+
+			<div class="box">
+				<p>Salt</p>
+			</div>
+
+			<div class="box">
+				<p>Snow</p>
+			</div>
+
+			<div class="box">
+				<p>Ice</p>
+			</div>
+
+			<div class="box">
+				<p>Ice Snow</p>
+			</div>
+
+			<div class="box">
+				<p>Shale</p>
+			</div>
+
+			<div class="box">
+				<p>Moss</p>
+			</div>
+
+			<div class="box">
+				<p>Spore Moss</p>
+			</div>
+
+			<div class="box">
+				<p>Stone Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Spore Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Dirt Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Dacite Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Ice Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Snow Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Dune Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Sand Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Salt Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Shrubs</p>
+			</div>
+
+			<div class="box">
+				<p>Shale Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Spore Pine</p>
+			</div>
+
+			<div class="box">
+				<p>Snow Pine</p>
+			</div>
+
+			<div class="box">
+				<p>Pine</p>
+			</div>
+
+			<div class="box">
+				<p>White Tree Dead</p>
+			</div>
+
+			<div class="box">
+				<p>White Tree</p>
+			</div>
+
+			<div class="box">
+				<p>Spore Cluster</p>
+			</div>
+
+			<div class="box">
+				<p>Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Snow Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Shale Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Sand Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Dacite Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Basalt Boulder</p>
+			</div>
+
+			<div class="box">
+				<p>Metal Floor 1</p>
+			</div>
+
+			<div class="box">
+				<p>Damaged Metal Floor</p>
+			</div>
+
+			<div class="box">
+				<p>Metal Floor 2</p>
+			</div>
+
+			<div class="box">
+				<p>Metal Floor 3</p>
+			</div>
+
+			<div class="box">
+				<p>Metal Floor 5</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 1</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 2</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 3</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 4</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 5</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Panel 6</p>
+			</div>
+
+			<div class="box">
+				<p>Dark Metal</p>
+			</div>
+
+			<div class="box">
+				<p>Pebbles</p>
+			</div>
+
+			<div class="box">
+				<p>Tendrils</p>
+			</div>
+
+			<div class="box">
+				<p>Copper</p>
+				<mark>{Insert GIF of Copper}</mark>
+			</div>
+
+			<div class="box">
+				<p>Lead</p>
+				<mark>{Insert GIF of Lead}</mark>
+			</div>
+
+			<div class="box">
+				<p>Scrap</p>
+				<mark>{Insert GIF of Scrap}</mark>
+			</div>
+
+			<div class="box">
+				<p>Coal</p>
+				<mark>{Insert GIF of Coal}</mark>
+			</div>
+
+			<div class="box">
+				<p>Titanium</p>
+				<mark>{Insert GIF of Titanium}</mark>
+			</div>
+
+			<div class="box">
+				<p>Thorium</p>
+				<mark>{Insert GIF of Thorium}</mark>
+			</div>
+
+		</article>
+
+		<article>
+			<h2>Blocks</h2>
+
+			<div class="box">
+				<p>Phase Weaver</p>
+				<mark>{Insert GIF of Phase Weaver}</mark>
+			</div>
+
+			<div class="box" id="alloy-smelter">
+				<p>Alloy Smelter</p>
+				<mark>{Insert GIF of Alloy Smelter}</mark>
+			</div>
+
+			<div class="box">
+				<p>Cryofluid Mixer</p>
+				<mark>{Insert GIF of Cryofluid Mixer}</mark>
+			</div>
+
+			<div class="box">
+				<p>Pyratite Mixer</p>
+				<mark>{Insert GIF of Pyratite Mixer}</mark>
+			</div>
+
+			<div class="box">
+				<p>Melter</p>
+				<mark>{Insert GIF of Melter}</mark>
+			</div>
+
+			<div class="box">
+				<p>Separator</p>
+				<mark>{Insert GIF of Separator}</mark>
+			</div>
+
+			<div class="box">
+				<p>Disassembler</p>
+				<mark>{Insert GIF Disassembler}</mark>
+			</div>
+
+			<div class="box">
+				<p>Spore Press</p>
+				<mark>{Insert GIF of Spore Press}</mark>
+			</div>
+
+			<div class="box">
+				<p>Pulverizer</p>
+				<mark>{Insert GIF of Pulverizer}</mark>
+			</div>
+
+			<div class="box">
+				<p>Coal Centrifuge</p>
+				<mark>{Insert GIF of Coal Centrifuge}</mark>
+			</div>
+
+			<div class="box">
+				<p>Incinerator</p>
+				<mark>{Insert GIF of Incinerator}</mark>
+			</div>
+
+			<div class="box">
+				<p>Copper Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Copper Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Titanium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Titanium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Plastanium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Plastanium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Thorium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Thorium Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Phase Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Phase Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Surge Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Surge Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Door</p>
+				<mark>{Insert GIF of Door}</mark>
+			</div>
+
+			<div class="box">
+				<p>Large Door</p>
+				<mark>{Insert GIF of Large Door}</mark>
+			</div>
+
+			<div class="box">
+				<p>Scrap Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Large Scrap Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Huge Scrap Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Gigantic Scrap Wall</p>
+			</div>
+
+			<div class="box">
+				<p>Mender</p>
+				<mark>{Insert GIF of Mender}</mark>
+			</div>
+
+			<div class="box">
+				<p>Mend Projector</p>
+				<mark>{Insert GIF of Mend Projector}</mark>
+			</div>
+
+			<div class="box">
+				<p>Overdrive Projector</p>
+				<mark>{Insert GIF of Overdrive Projector}</mark>
+			</div>
+
+			<div class="box">
+				<p>Overdrive Dome</p>
+				<mark>{Insert GIF of Overdrive Dome}</mark>
+			</div>
+
+			<div class="box">
+				<p>Force Projector</p>
+				<mark>{Insert GIF of Force Projector}</mark>
+			</div>
+
+			<div class="box">
+				<p>Shock Mine</p>
+				<mark>{Insert GIF of Shock Mine}</mark>
+			</div>
+
+			<div class="box">
+				<p>Conveyor</p>
+			</div>
+
+			<div class="box">
+				<p>Titanium Conveyor</p>
+			</div>
+
+			<div class="box">
+				<p>Plastanium Conveyor</p>
+				<mark>{Insert GIF of Plastanium Conveyor}</mark>
+			</div>
+
+			<div class="box">
+				<p>Armored Conveyor</p>
+			</div>
+
+			<div class="box">
+				<p>Junction</p>
+				<mark>{Insert GIF of Junction}</mark>
+			</div>
+
+			<div class="box">
+				<p>Bridge Conveyor</p>
+				<mark>{Insert GIF of Bridge Conveyor}</mark>
+			</div>
+
+			<div class="box">
+				<p>Phase Conveyor</p>
+				<mark>{Insert GIF of Phase Conveyor}</mark>
+			</div>
+
+			<div class="box">
+				<p>Sorter</p>
+				<mark>{Insert GIF of Sorter}</mark>
+			</div>
+
+			<div class="box">
+				<p>Inverted Sorter</p>
+				<mark>{Insert GIF of Inverted Sorter}</mark>
+			</div>
+
+			<div class="box">
+				<p>Router</p>
+				<mark>{Insert GIF of Router}</mark>
+			</div>
+
+			<div class="box">
+				<p>Distributor</p>
+				<mark>{Insert GIF of Distributor}</mark>
+			</div>
+
+			<div class="box">
+				<p>Overflow Gate</p>
+				<mark>{Insert GIF of Overflow Gate}</mark>
+			</div>
+
+			<div class="box">
+				<p>Underflow Gate</p>
+				<mark>{Insert GIF of Underflow Gate}</mark>
+			</div>
+
+			<div class="box">
+				<p>Mass Driver</p>
+				<mark class="marking">{Insert GIF of Mass Drivers}</mark>
+			</div>
+
+			<div class="box">
+				<p>Mechanical Pump</p>
+			</div>
+
+			<div class="box">
+				<p>Rotary Pump</p>
+			</div>
+
+			<div class="box" id="thermal-pump">
+				<p>Thermal Pump</p>
+			</div>
+
+			<div class="box">
+				<p>Conduit</p>
+			</div>
+
+			<div class="box">
+				<p>Pulse Conduit</p>
+			</div>
+
+			<div class="box">
+				<p>Plated Conduit</p>
+			</div>
+
+			<div class="box">
+				<p>Liquid Router</p>
+			</div>
+
+			<div class="box">
+				<p>Liquid Tank</p>
+			</div>
+
+			<div class="box">
+				<p>Liquid Junction</p>
+			</div>
+
+			<div class="box">
+				<p>Bridge Conduit</p>
+			</div>
+
+			<div class="box">
+				<p>Phase Conduit</p>
+			</div>
+
+			<div class="box">
+				<p>Power Node</p>
+			</div>
+
+			<div class="box">
+				<p>Large Power Node</p>
+			</div>
+
+			<div class="box">
+				<p>Surge Tower</p>
+			</div>
+
+			<div class="box">
+				<p>Battery Diode</p>
+			</div>
+
+			<div class="box">
+				<p>Battery</p>
+			</div>
+
+			<div class="box">
+				<p>Large Battery</p>
+			</div>
+
+			<div class="box">
+				<p>Combustion Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Thermal Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Steam Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Differential Generator</p>
+			</div>
+
+			<div class="box">
+				<p>RTG Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Solar Panel</p>
+			</div>
+
+			<div class="box">
+				<p>Large Solar Panel</p>
+			</div>
+
+			<div class="box">
+				<p>Thorium Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Impact Generator</p>
+			</div>
+
+			<div class="box">
+				<p>Mechanical Drill</p>
+			</div>
+
+			<div class="box">
+				<p>Pneumatic Drill</p>
+			</div>
+
+			<div class="box">
+				<p>Laser Drill</p>
+			</div>
+
+			<div class="box">
+				<p>Airblast Drill</p>
+			</div>
+
+			<div class="box">
+				<p>Water Extractor</p>
+			</div>
+
+			<div class="box">
+				<p>Cultivator</p>
+			</div>
+
+			<div class="box">
+				<p>Oil Extractor</p>
+			</div>
+
+			<div class="box">
+				<p>Core: Shard</p>
+			</div>
+
+			<div class="box">
+				<p>Core: Foundation</p>
+			</div>
+
+			<div class="box">
+				<p>Core: Necleus</p>
+			</div>
+
+			<div class="box">
+				<p>Vault</p>
+			</div>
+
+			<div class="box">
+				<p>Container</p>
+			</div>
+
+			<div class="box">
+				<p>Unloader</p>
+			</div>
+
+			<div class="box">
+				<p>Duo</p>
+			</div>
+
+			<div class="box">
+				<p>Scatter</p>
+			</div>
+
+			<div class="box">
+				<p>Scotch</p>
+			</div>
+
+			<div class="box">
+				<p>Hail</p>
+			</div>
+
+			<div class="box">
+				<p>Wave</p>
+			</div>
+
+			<div class="box">
+				<p>Lancer</p>
+			</div>
+
+			<div class="box">
+				<p>Arc</p>
+			</div>
+
+			<div class="box">
+				<p>Parallax</p>
+			</div>
+
+			<div class="box">
+				<p>Swarmer</p>
+			</div>
+
+			<div class="box">
+				<p>Salvo</p>
+			</div>
+
+			<div class="box">
+				<p>Segment</p>
+			</div>
+
+			<div class="box">
+				<p>Tsunami</p>
+			</div>
+
+			<div class="box">
+				<p>Fuse</p>
+			</div>
+
+			<div class="box">
+				<p>Ripple</p>
+			</div>
+
+			<div class="box">
+				<p>Cyclone</p>
+			</div>
+
+			<div class="box">
+				<p>Foreshadow</p>
+			</div>
+
+			<div class="box">
+				<p>Spectre</p>
+			</div>
+
+			<div class="box">
+				<p>Meltdown</p>
+			</div>
+
+			<div class="box" id="command-center">
+				<p>Command Center</p>
+			</div>
+
+			<div class="box">
+				<p>Ground Factory</p>
+			</div>
+
+			<div class="box">
+				<p>Air Factory</p>
+			</div>
+
+			<div class="box">
+				<p>Naval Factory</p>
+			</div>
+
+			<div class="box">
+				<p>Additive Reconstructor</p>
+			</div>
+
+			<div class="box">
+				<p>Multiplicative Reconstructor</p>
+			</div>
+
+			<div class="box">
+				<p>Exponential Reconstructor</p>
+			</div>
+
+			<div class="box">
+				<p>Tetrative Reconstructor</p>
+			</div>
+
+			<div class="box">
+				<p>Repair Point</p>
+			</div>
+
+			<div class="box">
+				<p>Repair Turret</p>
+			</div>
+
+			<div class="box">
+				<p>Payload Conveyor</p>
+			</div>
+
+			<div class="box">
+				<p>Payload Router</p>
+			</div>
+
+			<div class="box">
+				<p>Power Source</p>
+			</div>
+
+			<div class="box">
+				<p>Power Void</p>
+			</div>
+
+			<div class="box">
+				<p>Item Source</p>
+			</div>
+
+			<div class="box">
+				<p>Item Void</p>
+			</div>
+
+			<div class="box">
+				<p>Liquid Source</p>
+			</div>
+
+			<div class="box">
+				<p>Liquid Void</p>
+			</div>
+
+			<div class="box">
+				<p>Illuminator</p>
+			</div>
+
+			<div class="box">
+				<p>Launch Pad</p>
+			</div>
+
+			<div class="box">
+				<p>Launchpod</p>
+			</div>
+
+			<div class="box">
+				<p>Rally Point</p>
+			</div>
+
+			<div class="box">
+				<p>Resupply Point</p>
+			</div>
+
+			<div class="box">
+				<p>Interplanetary Accelerator</p>
+			</div>
+
+			<div class="box">
+				<p>Message</p>
+			</div>
+
+			<div class="box">
+				<p>Switch</p>
+			</div>
+
+			<div class="box">
+				<p>Micro Processor</p>
+			</div>
+
+			<div class="box">
+				<p>Logic Processor</p>
+			</div>
+
+			<div class="box">
+				<p>Hyper Processor</p>
+			</div>
+
+			<div class="box">
+				<p>Memory Cell</p>
+			</div>
+
+			<div class="box">
+				<p>Memory Bank</p>
+			</div>
+
+			<div class="box">
+				<p>Logic Display</p>
+			</div>
+
+			<div class="box">
+				<p>Large Logic Display</p>
+			</div>
+
+			<div class="box">
+				<p>Graphite Press</p>
+			</div>
+
+			<div class="box">
+				<p>Multi-Press</p>
+			</div>
+
+			<div class="box">
+				<p>Silicon Smelter</p>
+			</div>
+
+			<div class="box">
+				<p>Silicon Crucible</p>
+			</div>
+
+			<div class="box">
+				<p>Kiln</p>
+			</div>
+
+			<div class="box">
+				<p>Plastanium Compressor</p>
+			</div>
+
+			<h2>Misc</h2>
+
+			<div class="box">
+				<p>Env Error</p>
+			</div>
+
+			<div class="box">
+				<p>Error</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Items</h2>
+
+			<div class="box" id="item-copper">
+				<p>Copper</p>
+			</div>
+
+			<div class="box" id="item-lead">
+				<p>Lead</p>
+			</div>
+
+			<div class="box" id="item-plastanium">
+				<p>Plastanium</p>
+			</div>
+
+			<div class="box" id="item-phase-fabric">
+				<p>Phase Fabric</p>
+			</div>
+
+			<div class="box" id="item-surge-alloy">
+				<p>Surge Alloy</p>
+			</div>
+
+			<div class="box" id="spore-pods">
+				<p>Spore Pod</p>
+			</div>
+
+			<div class="box" id="item-blast-compound">
+				<p>Blast Compound</p>
+			</div>
+
+			<div class="box" id="item-pyratite">
+				<p>Pyratite</p>
+			</div>
+
+			<div class="box" id="item-metaglass">
+				<p>Metaglass</p>
+			</div>
+
+			<div class="box" id="item-graphite">
+				<p>Graphite</p>
+			</div>
+
+			<div class="box" id="item-sand">
+				<p>Sand</p>
+			</div>
+
+			<div class="box" id="item-coal">
+				<p>Coal</p>
+			</div>
+
+			<div class="box" id="item-titanium">
+				<p>Titanium</p>
+			</div>
+
+			<div class="box" id="item-thorium">
+				<p>Thorium</p>
+			</div>
+
+			<div class="box" id="item-scrap">
+				<p>Scrap</p>
+			</div>
+
+			<div class="box" id="item-silicon">
+				<p>Silicon</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Liquids</h2>
+
+			<div class="box">
+				<p>Water</p>
+			</div>
+
+			<div class="box">
+				<p>Slag</p>
+			</div>
+
+			<div class="box">
+				<p>Oil</p>
+			</div>
+
+			<div class="box">
+				<p>Cryofluid</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Planets</h2>
+
+			<div class="box">
+				<p>Serpulo</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Statuses</h2>
+
+			<div class="box">
+				<p>Burning</p>
+			</div>
+
+			<div class="box">
+				<p>Spore Slowed</p>
+			</div>
+
+			<div class="box">
+				<p>Tarred</p>
+			</div>
+
+			<div class="box">
+				<p>Overdrive</p>
+			</div>
+
+			<div class="box">
+				<p>Overclock</p>
+			</div>
+
+			<div class="box">
+				<p>Guardian</p>
+			</div>
+
+			<div class="box">
+				<p>Shocked</p>
+			</div>
+
+			<div class="box">
+				<p>Blasted</p>
+			</div>
+
+			<div class="box">
+				<p>Freezing</p>
+			</div>
+
+			<div class="box">
+				<p>Unmoving</p>
+			</div>
+
+			<div class="box">
+				<p><strike>Healing Flood</strike></p>
+			</div>
+
+			<div class="box">
+				<p><strike>Confused</strike></p>
+			</div>
+
+			<div class="box">
+				<p>Wet</p>
+			</div>
+
+			<div class="box">
+				<p>Melting</p>
+			</div>
+
+			<div class="box">
+				<p>Sapped</p>
+			</div>
+
+			<div class="box">
+				<p>Electrified</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Extra Statuses</h2>
+
+			<div class="box">
+				<p>Slow</p>
+			</div>
+
+			<div class="box">
+				<p>Shielded</p>
+			</div>
+
+			<div class="box">
+				<p>Disarmed</p>
+			</div>
+
+			<div class="box">
+				<p>Corroded</p>
+			</div>
+
+			<div class="box">
+				<p>Muddy</p>
+			</div>
+		</article>
+
+		<article>
+			<h2>Units</h2>
+
+			<div class="box">
+				<p>Dagger</p>
+			</div>
+
+			<div class="box">
+				<p>Mace</p>
+			</div>
+
+			<div class="box">
+				<p>Crawler</p>
+			</div>
+
+			<div class="box">
+				<p>Atrax</p>
+			</div>
+
+			<div class="box">
+				<p>Spiroct</p>
+			</div>
+
+			<div class="box">
+				<p>Arkyid</p>
+			</div>
+
+			<div class="box">
+				<p>Toxopid</p>
+			</div>
+
+			<div class="box">
+				<p>Flare</p>
+			</div>
+
+			<div class="box">
+				<p>Horizon</p>
+			</div>
+
+			<div class="box">
+				<p>Zenith</p>
+			</div>
+
+			<div class="box">
+				<p>Antumbra</p>
+			</div>
+
+			<div class="box">
+				<p>Eclipse</p>
+			</div>
+
+			<div class="box">
+				<p>Fortress</p>
+			</div>
+
+			<div class="box">
+				<p>Mono</p>
+			</div>
+
+			<div class="box">
+				<p>Poly</p>
+			</div>
+
+			<div class="box">
+				<p>Mega</p>
+			</div>
+
+			<div class="box">
+				<p>Quad</p>
+			</div>
+
+			<div class="box">
+				<p>Oct</p>
+			</div>
+
+			<div class="box">
+				<p>Risso</p>
+			</div>
+
+			<div class="box">
+				<p>Minke</p>
+			</div>
+
+			<div class="box">
+				<p>Bryde</p>
+			</div>
+
+			<div class="box">
+				<p>Sei</p>
+			</div>
+
+			<div class="box">
+				<p>Omura</p>
+			</div>
+
+			<div class="box">
+				<p>Scepter</p>
+			</div>
+
+			<div class="box">
+				<p>Retusa</p>
+			</div>
+
+			<div class="box">
+				<p>Oxynoe</p>
+			</div>
+
+			<div class="box">
+				<p>Cyerce</p>
+			</div>
+
+			<div class="box">
+				<p>Aegires</p>
+			</div>
+
+			<div class="box">
+				<p>Navanax</p>
+			</div>
+
+			<div class="box">
+				<p>Alpha</p>
+			</div>
+
+			<div class="box">
+				<p>Beta</p>
+			</div>
+
+			<div class="box">
+				<p>Gamma</p>
+			</div>
+
+			<div class="box">
+				<p>Nova</p>
+			</div>
+
+			<div class="box">
+				<p>Pulsar</p>
+			</div>
+
+			<div class="box">
+				<p>Quasar</p>
+			</div>
+
+			<div class="box">
+				<p>Vela</p>
+			</div>
+
+			<div class="box">
+				<p>Corvus</p>
+			</div>
+		</article>
+
+		<h2>Unit Weapons</h2>
+		<article>
+			<div class="box">
+				<p>Beam Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Eruption</p>
+			</div>
+
+			<div class="box">
+				<p>Flamethrower</p>
+			</div>
+
+			<div class="box">
+				<p>Heal Shotgun Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Heal Weapon Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Heal Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Large Artillery</p>
+			</div>
+
+			<div class="box">
+				<p>Large Bullet Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Large Laser Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Large Purple Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Large Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Missiles Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Mount Purple Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Mount Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Plasma Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Point Defense Mount</p>
+			</div>
+
+			<div class="box">
+				<p>Reign Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Repair Beam Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Repair Beam Weapon Center Large</p>
+			</div>
+
+			<div class="box">
+				<p>Repair Beam Weapon Center</p>
+			</div>
+
+			<div class="box">
+				<p>Scepter Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Sei Launcher</p>
+			</div>
+
+			<div class="box">
+				<p>Small Basic Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Small Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Spiroct Weapon</p>
+			</div>
+
+			<div class="box">
+				<p>Toxopid Cannon</p>
+			</div>
+
+			<div class="box">
+				<p>Zenith Missiles</p>
+			</div>
+		</article>
+
+		<h2>Teams</h2>
+		<article>
+			<div class="box">
+				<p>Sharded</p>
+			</div>
+
+			<div class="box">
+				<p>Crux</p>
+			</div>
+
+			<div class="box">
+				<p>Derelict</p>
+			</div>
+
+			<div class="box">
+				<p>Blue</p>
+			</div>
+
+			<div class="box">
+				<p>Green</p>
+			</div>
+
+			<div class="box">
+				<p>Purple</p>
+			</div>
+
+			<div class="box">
+				<p>249 Other Teams…</p>
+			</div>
+		</article>
+
+	</div>
+</body>
+
+</html>

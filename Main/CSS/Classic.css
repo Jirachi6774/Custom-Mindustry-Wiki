@@ -1,0 +1,35 @@
+/* Mindustry Classic Styling */
+
+:root {
+	font-family: Font;
+	color: #FFFFFF;
+	text-shadow: 1.5px 1.5px 0 #353535;
+	cursor: ;
+}
+
+@font-face  {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.ttf');
+	src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+body {
+	background-image: url('../Classic Version/Assets/Mindustry Classic BG.png');
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+.head {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.head-img {
+	width: 100%;
+}
+
+.wiki-box {
+	background-image: url('../Classic Version/Assets/Background.png');
+	padding: 10px;
+	max-width: 350px;
+}

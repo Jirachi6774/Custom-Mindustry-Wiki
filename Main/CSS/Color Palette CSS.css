@@ -1,0 +1,120 @@
+/* Styling for the Color Palette Database */
+
+:root {
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+}
+
+body {
+	font-family: Font;
+	background-image: url('../Assets/Misc/Smooth Animated Schematic.gif');
+	color: #FFFFFF;
+	/* Custom Mouse Styling */
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+	/* End Custom Mouse Styling */
+	text-shadow: 1px 1px 0 #000000;
+}
+
+.head {
+	margin: 2px;
+}
+
+.head-img {
+	width: 100%;
+	user-select: none;
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.woff');
+	src: url('../Assets/Misc/Fonts/Font.ttf');
+}
+
+.title {
+	font-size: 24px;
+	justify-content: center;
+	text-align: center;
+}
+
+.dBG {
+	color: #EEEEEE;
+	text-shadow: 1px 1px 0 #000000;
+	background-image: url('../Assets/Misc/Black BG.png');
+}
+
+.lBG {
+	color: #0E0E0E;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	background-image: url('../Assets/Misc/White BG.png');
+}
+
+.box {
+	width: 70%;
+	max-width: 400px;
+	background-size: contain;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px auto;
+	box-shadow: 2px 1px 5px #000000;
+}
+
+.paint-conainter {
+	display: flex;
+	flex-basis: auto;
+}
+
+.paint-bucket {
+	width: 65%;
+	max-width: 250px;
+	padding: 5px;
+	margin: 10px 5px;
+	border-radius: 5px;
+}
+
+.paint-box {
+	height: 25px;
+	width: 60%;
+	max-width: 500px;
+	margin: auto auto;
+	border-radius: 5px;
+	border-color: rgba(0, 0, 0, 0.5);
+	border-style: solid;
+	border-width: 3px;
+	box-shadow: 1px 1px 5px black;
+	user-select: none;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+/* Custom Tag */
+
+#r {
+	color: #F55555;
+}
+
+#o {
+	color: #FFAA55;
+}
+
+#y {
+	color: #FFDC00;
+}
+
+#g {
+	color: #55FF55;
+}
+
+#bl {
+	color: #5555FF;
+}
+
+#pu {
+	color: #7B2BFF;
+}
+
+/* End Custom Tags */

@@ -1,0 +1,2657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+	Looks like you are looking through the code of this HTML file, aren't you?
+	Feel free to do so, this file is Open Source and can be viewed or used in any way. ❤
+
+			░█████╗░  ░██╗░░░░░░░██╗  ░█████╗░		██╗░░░██╗███████╗░░░░█████╗░
+			██╔══██╗  ░██║░░██╗░░██║  ██╔══██╗		██║░░░██║╚════██║░░░██╔══██╗
+			██║░░██║  ░╚██╗████╗██╔╝  ██║░░██║		╚██╗░██╔╝░░░░██╔╝░░░██║░░██║
+			██║░░██║  ░░████╔═████║░  ██║░░██║		░╚████╔╝░░░░██╔╝░░░░██║░░██║
+			╚█████╔╝  ░░╚██╔╝░╚██╔╝░  ╚█████╔╝		░░╚██╔╝░░░░██╔╝░░██╗╚█████╔╝
+			░╚════╝░  ░░░╚═╝░░░╚═╝░░  ░╚════╝░		░░░╚═╝░░░░░╚═╝░░░╚═╝░╚════╝░
+
+	I do wonder why you actually decided to go look through the HTML code of this HTML file.
+	If you need any help with the HTML, CSS or image files, just send @Jirachi6774 a DM on Twitter.
+								> https://twitter.com/Jirachi6774 <
+-->
+
+<!-- " " invisible character that could be useful -->
+
+<head>
+	<!--
+		Everything inside here is needed to make this page actually work and look good visually instead of just full pale white...
+		You know, like how almost any site page looks like, pale white for most of the whole page, making eyes burn in pain.
+	-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mindustry Wiki – v7.0</title>
+
+	<!-- CSS Linking -->
+	<link rel="stylesheet" href="./CSS/v7/Wiki Styling v7.css">
+	<link rel="stylesheet" href="./CSS/v7/Text Color v7.css">
+	<!-- Needed for the other Text Colors -->
+	<link rel="stylesheet" href="./CSS/Text Color.css">
+	<!-- End of Extra Text Colors -->
+	<!-- End CSS Linking -->
+
+	<!-- Favicon Image -->
+	<link rel="shortcut icon" href="./Assets/Misc/Favicon Core.png" type="image/x-icon">
+	<!-- End Favicon -->
+
+	<!-- Log Script -->
+	<script src="./JS/v7.log.js"></script>
+	<!-- End Log Script -->
+</head>
+
+<body>
+
+	<!-- Source for Content Information : https://mindustrygame.github.io/wiki/ -->
+
+	<header class="head" role="banner">
+		<!-- Header / Banner for the page, basically the game's title screen title inside the game files -->
+		<img src="./Assets/Misc/Mindustry Title.png" alt="Mindustry Title" class="head-img">
+	</header>
+
+	<!-- White Space Bar used to keep a set space between Banner and Top Text Section -->
+	<hr class="white-space">
+	<!-- End of the White Space Bar -->
+
+	<div class="text-box">
+		<main>
+			<p class="text">This is an <span id="slag" class="text">HTML</span> Document that will go more into detail about
+				the game <span class="sharded text">Mindustry</span>.<br>
+				This document goes more into detail about <span class="derelict text">v7.0</span>.<br>
+				Use these <button class="sharded text static-button">Buttons</button> to navigate.</p>
+		</main>
+
+		<!-- Buttons for the different pages -->
+
+		<nav class="button-flex" role="navigation">
+			<button onclick="window.location.href='./Main Page.html'" class="button pulse" role="button" title="Button to the Main Page">Main Page</button>
+			<button onclick="window.location.href='./Wiki v6.html'" class="button pulse" role="button" title="Button to Mindustry v6">Mindustry v6.0</button>
+			<button onclick="window.location.href='./Misc HTML/Color Palettes.html'" class="button pulse" role="button" title="Button to the Palette Database">Palette Database</button>
+			<button onclick="window.location.href='./Tech Tree.html'" class="button pulse" role="button" title="Button to the Tech Tree">Tech Tree</button>
+			<button onclick="window.location.href='./Misc HTML/Sound-Base.html'" class="button pulse" role="button" title="Button to the Sound Database">Sound Database</button>
+		</nav>
+	</div>
+
+	<!-- End of the buttons -->
+
+	<!--
+	<hr class="white-space"/>
+	
+	<fieldset id="text-box">
+		
+	</fieldset>
+	-->
+
+	<!-- Start of the TOC Table -->
+	<div>
+		<h2>TOC</h2>
+		<div class="scroll-box">
+			<div class="TOC-flex">
+				<figure class="TOC-figure">
+					<!-- Environment blocks TOC -->
+					<h3 class="jump" onclick="window.location.href='#env-blocks'">Environment Blocks</h3>
+					<p class="jump" onclick="window.location.href='#redweed'">Redweed</p>
+					<p class="jump" onclick="window.location.href='#pur-bush'">Pur Bush</p>
+					<p class="jump" onclick="window.location.href='#yellowcoral'">Yellowcoral</p>
+					<p class="jump" onclick="window.location.href='#carbon-boulder'">Carbon Boulder</p>
+					<p class="jump" onclick="window.location.href='#ferric-boulder'">Ferric Boulder</p>
+					<p class="jump" onclick="window.location.href='#beryllic-boulder'">Beryllic Boulder</p>
+					<p class="jump" onclick="window.location.href='#yellow-stone-boulder'">Yellow Stone Boulder</p>
+					<p class="jump" onclick="window.location.href='#arkyic-boulder'">Arkyic Boulder</p>
+					<p class="jump" onclick="window.location.href='#crystal-cluster'">Crystal Cluster</p>
+					<p class="jump" onclick="window.location.href='#vibrant-crystal-cluster'">Vibrant Crystal Cluster</p>
+					<p class="jump" onclick="window.location.href='#crystal-blocks'">Crystal Blocks</p>
+					<p class="jump" onclick="window.location.href='#crystal-orbs'">Crystal Orbs</p>
+					<p class="jump" onclick="window.location.href='#crystalline-boulder'">Crystalline Boulder</p>
+					<p class="jump" onclick="window.location.href='#red-ice-boulder'">Red Ice Boulder</p>
+					<p class="jump" onclick="window.location.href='#rhyolite-boulder'">Rhyolite Boulder</p>
+					<p class="jump" onclick="window.location.href='#red-stone-boulder'">Red Stone Boulder</p>
+					<p class="jump" onclick="window.location.href='#metal-floor-4'">Metal Floor 4</p>
+					<p class="jump" onclick="window.location.href='#beryllium-ore'">Beryllium</p>
+					<p class="jump" onclick="window.location.href='#tungsten-ore'">Tungsten</p>
+					<p class="jump" onclick="window.location.href='#thorium-ore-wall'">Thorium (Wall)</p>
+					<p class="jump" onclick="window.location.href='#beryllium-ore-wall'">Beryllium (Wall)</p>
+					<p class="jump" onclick="window.location.href='#graphitic-wall'">Graphitic Wall</p>
+					<p class="jump" onclick="window.location.href='#tungsten-ore-wall'">Tungsten (Wall)</p>
+					<p class="jump" onclick="window.location.href='#empty'">Empty</p>
+					<p class="jump" onclick="window.location.href='#rhyolite'">Rhyolite</p>
+					<p class="jump" onclick="window.location.href='#rhyolite-craters'">Rhyolite Craters</p>
+					<p class="jump" onclick="window.location.href='#rough-rhyolite'">Rough Rhyolite</p>
+					<p class="jump" onclick="window.location.href='#regolith'">Regolith</p>
+					<p class="jump" onclick="window.location.href='#yellow-stone'">Yellow Stone</p>
+					<p class="jump" onclick="window.location.href='#carbon-stone'">Carbon Stone</p>
+					<p class="jump" onclick="window.location.href='#ferric-stone'">Ferric Stone</p>
+					<p class="jump" onclick="window.location.href='#ferric-craters'">Ferric Craters</p>
+					<p class="jump" onclick="window.location.href='#beryllic-stone'">Beryllic Stone</p>
+					<p class="jump" onclick="window.location.href='#crystalline-stone'">Crystalline Stone</p>
+					<p class="jump" onclick="window.location.href='#crystal-floor'">Crystal Floor</p>
+					<p class="jump" onclick="window.location.href='#yellow-stone-plates'">Yellow Stone Plates</p>
+					<p class="jump" onclick="window.location.href='#red-stone'">Red Stone</p>
+					<p class="jump" onclick="window.location.href='#dense-red-stone'">Dense Red Stone</p>
+					<p class="jump" onclick="window.location.href='#red-ice'">Red Ice</p>
+					<p class="jump" onclick="window.location.href='#arkycite-floor'">Arkycite Floor</p>
+					<p class="jump" onclick="window.location.href='#arkyic-stone'">Arkyic Stone</p>
+					<p class="jump" onclick="window.location.href='#rhyolite-vent'">Rhyolite Vent</p>
+					<p class="jump" onclick="window.location.href='#carbon-vent'">Carbon Vent</p>
+					<p class="jump" onclick="window.location.href='#arkyic-vent'">Arkyic Vent</p>
+					<p class="jump" onclick="window.location.href='#yellow-stone-vent'">Yellow Stone Vent</p>
+					<p class="jump" onclick="window.location.href='#red-stone-vent'">Red Stone Vent</p>
+					<p class="jump" onclick="window.location.href='#redmat'">Redmat</p>
+					<p class="jump" onclick="window.location.href='#bluemat'">Bluemat</p>
+					<p class="jump" onclick="window.location.href='#core-zone'">Core Zone</p>
+					<p class="jump" onclick="window.location.href='#regolith-wall'">Regolith Wall</p>
+					<p class="jump" onclick="window.location.href='#yellow-stone-wall'">Yellow Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#rhyolite-wall'">Rhyolite Wall</p>
+					<p class="jump" onclick="window.location.href='#carbon-wall'">Carbon Wall</p>
+					<p class="jump" onclick="window.location.href='#ferric-stone-wall'">Ferric Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#beryllic-stone-wall'">Beryllic Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#arkyic-wall'">Arkyic Wall</p>
+					<p class="jump" onclick="window.location.href='#crystalline-stone-wall'">Crystalline Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#red-ice-wall'">Red Ice Wall</p>
+					<p class="jump" onclick="window.location.href='#red-stone-wall'">Red Stone Wall</p>
+					<p class="jump" onclick="window.location.href='#red-diamond-wall'">Red Diamond Wall</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Blocks TOC -->
+					<h3 class="jump" onclick="window.location.href='#blocks'">Blocks</h3>
+					<p class="jump" onclick="window.location.href='#silicon-arc-furnace'">Silicon Arc Furnace</p>
+					<p class="jump" onclick="window.location.href='#surge-smelter'">Surge Smelter</p>
+					<p class="jump" onclick="window.location.href='#electrolyzer'">Electrolyzer</p>
+					<p class="jump" onclick="window.location.href='#atmospheric-concentrator'">Atmospheric Concentrator</p>
+					<p class="jump" onclick="window.location.href='#oxidation-chamber'">Oxidation Chamber</p>
+					<p class="jump" onclick="window.location.href='#electric-heater'">Electric Heater</p>
+					<p class="jump" onclick="window.location.href='#slag-heater'">Slag Heater</p>
+					<p class="jump" onclick="window.location.href='#phase-heater'">Phase Heater</p>
+					<p class="jump" onclick="window.location.href='#heat-redirector'">Heat Redirector</p>
+					<p class="jump" onclick="window.location.href='#slag-incinerator'">Slag Incinerator</p>
+					<p class="jump" onclick="window.location.href='#carbide-crucible'">Carbide Crucible</p>
+					<p class="jump" onclick="window.location.href='#slag-centrifuge'">Slag Centrifuge</p>
+					<p class="jump" onclick="window.location.href='#surge-crucible'">Surge Crucible</p>
+					<p class="jump" onclick="window.location.href='#cyanogen-synthesizer'">Cyanogen Synthesizer</p>
+					<p class="jump" onclick="window.location.href='#phase-synthesizer'">Phase Synthesizer</p>
+					<p class="jump" onclick="window.location.href='#heat-reactor'">Heat Reactor</p>
+					<p class="jump" onclick="window.location.href='#beryllium-wall'">Beryllium Wall</p>
+					<p class="jump" onclick="window.location.href='#large-beryllium-wall'">Large Beryllium Wall</p>
+					<p class="jump" onclick="window.location.href='#tungsten-wall'">Tungsten Wall</p>
+					<p class="jump" onclick="window.location.href='#large-tungsten-wall'">Large Tungsten Wall</p>
+					<p class="jump" onclick="window.location.href='#blast-door'">Blast Door</p>
+					<p class="jump" onclick="window.location.href='#reinforced-surge-wall'">Reinforced Surge Wall</p>
+					<p class="jump" onclick="window.location.href='#reinforced-surge-wall-large'">Reinforced Surge Wall Large</p>
+					<p class="jump" onclick="window.location.href='#carbide-wall'">Carbide Wall</p>
+					<p class="jump" onclick="window.location.href='#large-carbide-wall'">Large Carbide Wall</p>
+					<p class="jump" onclick="window.location.href='#radar'">Radar</p>
+					<p class="jump" onclick="window.location.href='#build-tower'">Build Tower</p>
+					<p class="jump" onclick="window.location.href='#regen-projector'">Regen Projector</p>
+					<p class="jump" onclick="window.location.href='#shield-projector'">Shield Projector</p>
+					<p class="jump" onclick="window.location.href='#large-shield-projector'">Large Shield Projector</p>
+					<p class="jump" onclick="window.location.href='#shield-breaker ' //Temp Tag">Shield Breaker (temp name/sprite)</p>
+					<p class="jump" onclick="window.location.href='#duct'">Duct</p>
+					<p class="jump" onclick="window.location.href='#armored-duct'">Armored Duct</p>
+					<p class="jump" onclick="window.location.href='#duct-router'">Duct Router</p>
+					<p class="jump" onclick="window.location.href='#overflow-duct'">Overflow Duct</p>
+					<p class="jump" onclick="window.location.href='#duct-bridge'">Duct Bridge</p>
+					<p class="jump" onclick="window.location.href='#duct-unloader'">Duct Unloader</p>
+					<p class="jump" onclick="window.location.href='#surge-conveyor'">Surge Conveyor</p>
+					<p class="jump" onclick="window.location.href='#surge-router'">Surge Router</p>
+					<p class="jump" onclick="window.location.href='#unit-cargo-loader'">Unit Cargo Loader</p>
+					<p class="jump" onclick="window.location.href='#unit-cargo-unload-point'">Unit Cargo UnloadPoint</p>
+					<p class="jump" onclick="window.location.href='#impulse-pump'">Impulse Pump</p>
+					<p class="jump" onclick="window.location.href='#liquid-container'">Liquid Container</p>
+					<p class="jump" onclick="window.location.href='#reinforced-pump'">Reinforced Pump</p>
+					<p class="jump" onclick="window.location.href='#reinforced-conduit'">Reinforced Conduit</p>
+					<p class="jump" onclick="window.location.href='#reinforced-liquid-junction'">Reinforced Liquid Junction</p>
+					<p class="jump" onclick="window.location.href='#reinforced-bridge-conduit'">Reinforced Bridge Conduit</p>
+					<p class="jump" onclick="window.location.href='#reinforced-liquid-router'">Reinforced Liquid Router</p>
+					<p class="jump" onclick="window.location.href='#reinforced-liquid-container'">Reinforced Liquid Container</p>
+					<p class="jump" onclick="window.location.href='#reinforced-liquid-tank'">Reinforced Liquid Tank</p>
+					<p class="jump" onclick="window.location.href='#beam-node'">Beam Node</p>
+					<p class="jump" onclick="window.location.href='#beam-tower'">Beam Tower</p>
+					<p class="jump" onclick="window.location.href='#beam-link'">Beam Link</p>
+					<p class="jump" onclick="window.location.href='#turbine-condenser'">Turbine Condenser</p>
+					<p class="jump" onclick="window.location.href='#chemical-combustion-chamber'">Chemical Combustion Chamber</p>
+					<p class="jump" onclick="window.location.href='#pyrolysis-generator'">Pyrolysis Generator</p>
+					<p class="jump" onclick="window.location.href='#vent-condenser'">Vent Condenser</p>
+					<p class="jump" onclick="window.location.href='#cliff-crusher'">Cliff Crusher</p>
+					<p class="jump" onclick="window.location.href='#plasma-bore'">Plasma Bore</p>
+					<p class="jump" onclick="window.location.href='#large-plasma-bore'">Large Plasma Bore</p>
+					<p class="jump" onclick="window.location.href='#impact-drill'">Impact Drill</p>
+					<p class="jump" onclick="window.location.href='#eruption-drill'">Eruption Drill</p>
+					<p class="jump" onclick="window.location.href='#core-bastion'">Core: Bastion</p>
+					<p class="jump" onclick="window.location.href='#core-citadel'">Core: Citadel</p>
+					<p class="jump" onclick="window.location.href='#core-acropolis'">Core: Acropolis</p>
+					<p class="jump" onclick="window.location.href='#reinforced-container'">Reinforced Container</p>
+					<p class="jump" onclick="window.location.href='#reinforced-vault'">Reinforced Vault</p>
+					<p class="jump" onclick="window.location.href='#breach'">Breach</p>
+					<p class="jump" onclick="window.location.href='#diffuse'">Diffuse</p>
+					<p class="jump" onclick="window.location.href='#sublimate'">Sublimate</p>
+					<p class="jump" onclick="window.location.href='#titan'">Titan</p>
+					<p class="jump" onclick="window.location.href='#disperse'">Disperse</p>
+					<p class="jump" onclick="window.location.href='#afflict'">Afflict</p>
+					<p class="jump" onclick="window.location.href='#command-center'">Command Center</p>
+					<p class="jump" onclick="window.location.href='#tank-fabricator'">Tank Fabricator</p>
+					<p class="jump" onclick="window.location.href='#ship-fabricator'">Ship Fabricator</p>
+					<p class="jump" onclick="window.location.href='#mech-fabricator'">Mech Fabricator</p>
+					<p class="jump" onclick="window.location.href='#tank-refabricator'">Tank Refabricator</p>
+					<p class="jump" onclick="window.location.href='#mech-refabricator'">Mech Refabricator</p>
+					<p class="jump" onclick="window.location.href='#ship-refabricator'">Ship Refabricator</p>
+					<p class="jump" onclick="window.location.href='#prime-refabricator'">Prime Refabricator</p>
+					<p class="jump" onclick="window.location.href='#tank-assembler'">Tank Assembler</p>
+					<p class="jump" onclick="window.location.href='#ship-assembler'">Ship Assembler</p>
+					<p class="jump" onclick="window.location.href='#mech-assembler'">Mech Assembler</p>
+					<p class="jump" onclick="window.location.href='#basic-assembler-module'">Basic Assembler Module</p>
+					<p class="jump" onclick="window.location.href='#unit-repair-tower'">Unit Repair Tower</p>
+					<p class="jump" onclick="window.location.href='#reinforced-payload-conveyor'">Reinforced Payload Conveyor</p>
+					<p class="jump" onclick="window.location.href='#reinforced-payload-router'">Reinforced Payload Router</p>
+					<p class="jump" onclick="window.location.href='#payload-mass-driver'">Payload Mass Driver</p>
+					<p class="jump" onclick="window.location.href='#payload-propulsion-tower'">Payload Propulsion Tower</p>
+					<p class="jump" onclick="window.location.href='#small-deconstructor'">Small Deconstructor</p>
+					<p class="jump" onclick="window.location.href='#deconstructor'">Deconstructor</p>
+					<p class="jump" onclick="window.location.href='#constructor'">Constructor</p>
+					<p class="jump" onclick="window.location.href='#large-constructor'">Large Constructor</p>
+					<p class="jump" onclick="window.location.href='#payload-loader'">Payload Loader</p>
+					<p class="jump" onclick="window.location.href='#payload-unloader'">Payload Unloader</p>
+					<p class="jump" onclick="window.location.href='#payload-source'">Payload Source</p>
+					<p class="jump" onclick="window.location.href='#payload-void'">Payload Void</p>
+					<p class="jump" onclick="window.location.href='#canvas'" id="processor">Canvas</p>
+					<p class="jump" onclick="window.location.href='#world-processor'" id="processor">World Processor</p>
+					<p class="jump" onclick="window.location.href='#world-cell'" id="processor">World Cell</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Items TOC -->
+					<h3 class="jump" onclick="window.location.href='#items'">Items</h3>
+					<p class="jump" onclick="window.location.href='#beryllium-item'" id="beryllium">Beryllium</p>
+					<p class="jump" onclick="window.location.href='#tungsten-item'" id="tungsten">Tungsten</p>
+					<p class="jump" onclick="window.location.href='#oxide-item'" id="oxide">Oxide</p>
+					<p class="jump" onclick="window.location.href='#carbine-item'" id="carbine">Carbine</p>
+					<p class="jump" onclick="window.location.href='#dormant-cyst-item'">Dormant Cyst</p>
+					<p class="jump" onclick="window.location.href='#fissile-matter-item'">Fissile Matter</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Liquids TOC -->
+					<h3 class="jump" onclick="window.location.href='#liquids'">Liquids</h3>
+					<p class="jump" onclick="window.location.href='#cyanogen-liquid'" id="cyanogen">Cyanogen</p>
+					<p class="jump" onclick="window.location.href='#arkycite-liquid'" id="arkycite">Arkycite</p>
+					<p class="jump" onclick="window.location.href='#ozone-liquid'" id="ozone">Ozone</p>
+					<p class="jump" onclick="window.location.href='#hydrogen-liquid'" id="hydrogen">Hydrogen</p>
+					<p class="jump" onclick="window.location.href='#nitrogen-liquid'" id="nitrogen">Nitrogen</p>
+					<p class="jump" onclick="window.location.href='#gallium-liquid'">Gallium</p>
+					<p class="jump" onclick="window.location.href='#neoplasm-liquid'">Neoplasm</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Logic TOC -->
+					<h3 class="jump" onclick="window.location.href='#logic-title'" id="logic">Logic</h3>
+					<p class="jump" onclick="window.location.href='#canvas-logic'" id="processor">Canvas</p>
+					<p class="jump" onclick="window.location.href='#world-processor-logic'" id="processor">World Processor</p>
+					<p class="jump" onclick="window.location.href='#world-cell-logic'" id="processor">World Cell</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Planet TOC -->
+					<h3 class="jump" onclick="window.location.href='#planets'">Planets</h3>
+					<p class="jump" onclick="window.location.href='#erekir'">Erekir</p>
+					<p class="jump" onclick="window.location.href='#gier'">Gier</p>
+					<p class="jump" onclick="window.location.href='#notva'">Notva</p>
+					<p class="jump" onclick="window.location.href='#tantros'">Tantros</p>
+					<p class="jump" onclick="window.location.href='#verlius'">Verlius</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Units TOC -->
+					<h3 class="jump" onclick="window.location.href='#units'">Units</h3>
+					<p class="jump" onclick="window.location.href='#stell-unit'" id="stell">Stell</p>
+					<p class="jump" onclick="window.location.href='#locus-unit'" id="locus">Locus</p>
+					<p class="jump" onclick="window.location.href='#precept-unit'" id="precept">Precept</p>
+					<p class="jump" onclick="window.location.href='#vanquish-unit'" id="vanquish">Vanquish</p>
+					<p class="jump" onclick="window.location.href='#conquer-unit'" id="conquer">Conquer</p>
+					<p class="jump" onclick="window.location.href='#merui-unit'" id="merui">Merui</p>
+					<p class="jump" onclick="window.location.href='#cleroi-unit'" id="cleroi">Cleroi</p>
+					<p class="jump" onclick="window.location.href='#anthicus-unit'" id="anthicus">Anthicus</p>
+					<p class="jump" onclick="window.location.href='#tecta-unit'" id="tecta">Tecta</p>
+					<p class="jump" onclick="window.location.href='#collaris-unit'" id="collaris">Collaris</p>
+					<p class="jump" onclick="window.location.href='#elude-unit'" id="avert">Elude</p>
+					<p class="jump" onclick="window.location.href='#avert-unit'" id="avert">Avert</p>
+					<p class="jump" onclick="window.location.href='#obviate-unit'" id="obviate">Obviate</p>
+					<p class="jump" onclick="window.location.href='#quell-unit'" id="avert">Quell</p>
+					<p class="jump" onclick="window.location.href='#disrupt-unit'" id="disrupt">Disrupt</p>
+					<p class="jump" onclick="window.location.href='#evoke-unit'" id="evoke">Evoke</p>
+					<p class="jump" onclick="window.location.href='#incite-unit'" id="incite">Incite</p>
+					<p class="jump" onclick="window.location.href='#emanate-unit'" id="emanate">Emanate</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Unit Weapons TOC -->
+					<h3 class="jump" onclick="window.location.href='#unit-weapons'">Unit Weapons</h3>
+					<p class="jump" onclick="window.location.href='#anthicus-weapon-blade'" id="anthicus">Anthicus Weapon Blade</p>
+					<p class="jump" onclick="window.location.href='#anthicus-weapon'" id="anthicus">Anthicus Weapon</p>
+					<p class="jump" onclick="window.location.href='#avert-weapon'" id="avert">Avert Weapon</p>
+					<p class="jump" onclick="window.location.href='#build-weapon'" id="evoke">Build Weapon</p>
+					<p class="jump" onclick="window.location.href='#cleroi-weapon'" id="cleroi">Cleroi Weapon</p>
+					<p class="jump" onclick="window.location.href='#collaris-weapon-blade'" id="collaris">Collaris Weapon Blade</p>
+					<p class="jump" onclick="window.location.href='#collaris-weapon'" id="collaris">Collaris Weapon</p>
+					<p class="jump" onclick="window.location.href='#conquer-weapon-blade'" id="conquer">Conquer Weapon Blade</p>
+					<p class="jump" onclick="window.location.href='#conquer-weapon'" id="conquer">Conquer Weapon</p>
+					<p class="jump" onclick="window.location.href='#conquer-weapon-sides'" id="conquer">Conquer Weapon Sides</p>
+					<p class="jump" onclick="window.location.href='#disrupt-weapon-blade'" id="disrupt">Disrupt Weapon Blade</p>
+					<p class="jump" onclick="window.location.href='#disrupt-weapon'" id="disrupt">Disrupt Weapon</p>
+					<p class="jump" onclick="window.location.href='#disrupt-weapon-preview'" id="disrupt">Disrupt Weapon Preview</p>
+					<p class="jump" onclick="window.location.href='#elude-weapon'" id="avert">Elude Weapon</p>
+					<p class="jump" onclick="window.location.href='#incite-weapon'" id="incite">Incite Weapon</p>
+					<p class="jump" onclick="window.location.href='#locus-weapon'" id="locus">Locus Weapon</p>
+					<p class="jump" onclick="window.location.href='#precept-weapon'" id="precept">Precept Weapon</p>
+					<p class="jump" onclick="window.location.href='#quell-weapon'" id="avert">Quell Weapon</p>
+					<p class="jump" onclick="window.location.href='#stell-weapon'" id="stell">Stell Weapon</p>
+					<p class="jump" onclick="window.location.href='#tecta-weapon'" id="tecta">Tecta Weapon</p>
+					<p class="jump" onclick="window.location.href='#vanquish-point-weapon'" id="vanquish">Vanquish Point Weapon</p>
+					<p class="jump" onclick="window.location.href='#vanquish-weapon'" id="vanquish">Vanquish Weapon</p>
+				</figure>
+
+				<figure class="TOC-figure">
+					<!-- Teams TOC -->
+					<h3 class="jump" onclick="window.location.href='#teams'">Teams</h3>
+					<p class="jump malis" onclick="window.location.href='#malis-team'">Malis</p>
+					<p class="jump crux" onclick="window.location.href='#crux-team'">Crux</p>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<article>
+			<h2 id="env-blocks" class="target">Environment Blocks</h2>
+			<div class="box" id="redweed">
+				<p><span class="main-title">Redweed</span>
+					<img src="./Assets/V7/Environment Block/-Mat/Bush - Redweed/Block Redweed.png" alt="Redweed" class="flex-image" title="Redweed"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="pur-bush">
+				<p><span class="main-title">Pur Bush</span>
+					<img src="./Assets/V7/Environment Block/-Mat/Bush - Redweed/Block Pur Bush.png" alt="Pur Bush" class="flex-image" title="Pur Bush"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellowcoral">
+				<p><span class="main-title">Yellowcoral</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Yellowcoral.png" alt="Yellowcoral" class="flex-image" title="Yellowcoral"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="carbon-boulder">
+				<p><span class="main-title">Carbon Boulder</span>
+					<img src="./Assets/V7/Environment Block/Carbon/Block Carbon Boulder.png" alt="Carbon Boulder" class="flex-image" title="Carbon Boulder"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="ferric-boulder">
+				<p><span class="main-title">Ferric Boulder</span>
+					<img src="./Assets/V7/Environment Block/Ferric Stone/Block Ferric Boulder.png" alt="Ferric Boulder" class="flex-image" title="Ferric Stone Boulder"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="beryllic-boulder">
+				<p><span class="main-title">Beryllic Boulder</span>
+					<img src="./Assets/V7/Environment Block/Beryllic/Block Beryllic Boulder.png" alt="Beryllic Boulder" class="flex-image" title="Beryllic Boulder"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellow-stone-boulder">
+				<p><span class="main-title">Yellow Stone Boulder</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Block Yellow Stone Boulder.png" alt="Yellow Stone Boulder" class="flex-image" title="Yellow Stone Boulder"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="arkyic-boulder">
+				<p><span class="main-title">Arkyic Boulder</span>
+					<img src="./Assets/V7/Environment Block/Arkyic/Block Arkyic Boulder.png" alt="Arkyic Boulder" class="flex-image" title="Arkyic Boulder"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystal-cluster">
+				<p><span class="main-title">Crystal Cluster</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Clusters/Block Crystal Cluster.png" alt="Crystal Cluster" class="flex-image" title="Crystal Cluster"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="vibrant-crystal-cluster">
+				<p><span class="main-title">Vibrant Crystal Cluster</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Clusters/Block Vibrant Crystal Cluster.png" alt="Vibrant Crystal Cluster" class="flex-image" title="Vibrant Crystal Cluster"><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystal-blocks">
+				<p><span class="main-title">Crystal Blocks</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Clusters/Block Crystal Blocks.png" alt="Crystal Blocks" class="flex-image" title="Crystal Blocks"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystal-orbs">
+				<p><span class="main-title">Crystal Orbs</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Clusters/Block Crystal Orbs.png" alt="Crystal Orbs" class="flex-image" title="Crystal Orbs"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystalline-boulder">
+				<p><span class="main-title">Crystalline Boulder</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Block Crystalline Boulder.png" alt="Crystalline Boulder" class="flex-image" title="Crystalline Boulder"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-ice-boulder">
+				<p><span class="main-title">Red Ice Boulder</span>
+					<img src="./Assets/V7/Environment Block/Red Ice/Block Red Ice Boulder.png" alt="Red Ice Boulder" class="flex-image" title="Red Ice Boulder"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rhyolite-boulder">
+				<p><span class="main-title">Rhyolite Boulder</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rhyolite Boulder.png" alt="Rhyolite Boulder" class="flex-image" title="Rhyolite Boulder"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-stone-boulder">
+				<p><span class="main-title">Red Stone Boulder</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Red Stone Boulder.png" alt="Red Stone Boulder" class="flex-image" title="Red Stone Boulder"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="metal-floor-4">
+				<p><span class="main-title">Metal Floor 4</span>
+					<img src="./Assets/V7/Environment Block/Misc/Metal Floor/Block Metal Floor 4.png" alt="Metal Floor 4" class="flex-image" title="Metal Floor 4"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="beryllium-ore">
+				<p><span class="main-title">Beryllium</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Ore Beryllium.png" alt="Beryllium Ore" class="flex-image" title="Beryllium Ore"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>
+				</p>
+			</div>
+
+			<div class="box" id="tungsten-ore">
+				<p><span class="main-title">Tungsten</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Ore Tungsten.png" alt="Tungsten Ore" class="flex-image" title="Tungsten Ore"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>
+				</p>
+			</div>
+
+			<div class="box" id="thorium-ore-wall">
+				<p><span class="main-title">Thorium (Wall)</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Ore Crystal Thorium.png" alt="Crystal Thorium Ore" class="flex-image" title="Crystal Thorium"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/Items/Item Thorium.png" alt="Crystal Thorium" class="small-img" title="Thorium"/>
+				</p>
+			</div>
+
+			<div class="box" id="beryllium-ore-wall">
+				<p><span class="main-title">Beryllium (Wall)</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Ore Beryllium.png" alt="Beryllium Ore" class="flex-image" title="Beryllium Ore"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>
+				</p>
+			</div>
+
+			<div class="box" id="graphitic-wall">
+				<p><span class="main-title">Graphitic Wall</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Graphitic Wall.png" alt="Graphitic Wall" class="flex-image" title="Graphitic Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>
+				</p>
+			</div>
+
+			<div class="box" id="tungsten-ore-wall">
+				<p><span class="main-title">Tungsten (Wall)</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Ore/Block Ore Tungsten.png" alt="Tungsten Ore" class="flex-image" title="Tungsten Ore"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1<br>
+					Item Resource: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>
+				</p>
+			</div>
+
+			<div class="box" id="empty">
+				<p><span class="main-title">Empty</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Empty.png" alt="Empty" class="flex-image" title="Empty"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rhyolite">
+				<p><span class="main-title">Rhyolite</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rhyolite.png" alt="Rhyolite" class="flex-image" title="Rhyolite"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rhyolite-craters">
+				<p><span class="main-title">Rhyolite Craters</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rhyolite Crater.png" alt="Rhyolite Crater" class="flex-image" title="Rhyolite Crater"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rough-rhyolite">
+				<p><span class="main-title">Rough Rhyolite</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rough Rhyolite.png" alt="Rough Rhyolite" class="flex-image" title="Rough Rhyolite"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="regolith">
+				<p><span class="main-title">Regolith</span>
+					<img src="./Assets/V7/Environment Block/Regolith/Block Regolith.png" alt="Regolith" class="flex-image" title="Regolith"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellow-stone">
+				<p><span class="main-title">Yellow Stone</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Block Yellow Stone.png" alt="Yellow Stone" class="flex-image" title="Yellow Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="carbon-stone">
+				<p><span class="main-title">Carbon Stone</span>
+					<img src="./Assets/V7/Environment Block/Carbon/Block Carbon Stone.png" alt="Carbon Stone" class="flex-image" title="Carbon Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="ferric-stone">
+				<p><span class="main-title">Ferric Stone</span>
+					<img src="./Assets/V7/Environment Block/Ferric Stone/Block Ferric Stone.png" alt="Ferric Stone" class="flex-image" title="Ferric Stone"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="ferric-craters">
+				<p><span class="main-title">Ferric Craters</span>
+					<img src="./Assets/V7/Environment Block/Ferric Stone/Block Ferric Craters.png" alt="Ferric Crater" class="flex-image" title="Ferric Stone Crater"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="beryllic-stone">
+				<p><span class="main-title">Beryllic Stone</span>
+					<img src="./Assets/V7/Environment Block/Beryllic/Block Beryllic Stone.png" alt="Beryllic Stone" class="flex-image" title="Beryllic Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystalline-stone">
+				<p><span class="main-title">Crystalline Stone</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Block Crystalline Stone.png" alt="Crystalline Stone" class="flex-image" title="Crystalline Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystal-floor">
+				<p><span class="main-title">Crystal Floor</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Block Crystal Floor.png" alt="Crystal Floor" class="flex-image" title="Crystal Floor"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellow-stone-plates">
+				<p><span class="main-title">Yellow Stone Plates</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Block Yellow Stone Plates.png" alt="Yellow Stone Plates" class="flex-image" title="Yellow Stone Plates"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-stone">
+				<p><span class="main-title">Red Stone</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Red Stone.png" alt="Red Stone" class="flex-image" title="Red Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="dense-red-stone">
+				<p><span class="main-title">Dense Red Stone</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Dense Red Stone.png" alt="Dense Red Stone" class="flex-image" title="Dense Red Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-ice">
+				<p><span class="main-title">Red Ice</span>
+					<img src="./Assets/V7/Environment Block/Red Ice/Block Red Ice.png" alt="Red Ice" class="flex-image" title="Red Ice"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="arkycite-floor">
+				<p><span class="main-title">Arkycite Floor</span>
+					<img src="./Assets/V7/Environment Block/Arkyic/Block Arkycite Floor.png" alt="Arkycite Floor" class="flex-image" title="Arkycite Floor"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="arkyic-stone">
+				<p><span class="main-title">Arkyic Stone</span>
+					<img src="./Assets/V7/Environment Block/Arkyic/Block Arkyic Stone.png" alt="Arkyic Stone" class="flex-image" title="Arkyic Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rhyolite-vent">
+				<p><span class="main-title">Rhyolite Vent</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rhyolite Vent.png" alt="Rhyolite Vent" class="flex-image" title="Rhyolite Vent"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="carbon-vent">
+				<p><span class="main-title">Carbon Vent</span>
+					<img src="./Assets/V7/Environment Block/Carbon/Block Carbon Vent.png" alt="Carbon Vent" class="flex-image" title="Carbon Vent"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="arkyic-vent">
+				<p><span class="main-title">Arkyic Vent</span>
+					<img src="./Assets/V7/Environment Block/Arkyic/Block Arkyic Vent.png" alt="Arkyic Vent" class="flex-image" title="Arkyic Vent"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellow-stone-vent">
+				<p><span class="main-title">Yellow Stone Vent</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Block Yellow Stone Vent.png" alt="Yellow Stone Vent" class="flex-image" title="Yellow Stone Vent"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-stone-vent">
+				<p><span class="main-title">Red Stone Vent</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Red Stone Vent.png" alt="Red Stone Vent" class="flex-image" title="Red Stone Vent"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="redmat">
+				<p><span class="main-title">Redmat</span>
+					<img src="./Assets/V7/Environment Block/-Mat/Block Redmat.png" alt="Redmat" class="flex-image" title="Redmat"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="bluemat">
+				<p><span class="main-title">Bluemat</span>
+					<img src="./Assets/V7/Environment Block/-Mat/Block Bluemat.png" alt="Bluemat" class="flex-image" title="Bluemat"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="core-zone">
+				<p><span class="main-title">Core Zone</span>
+					<img src="./Assets/V7/Environment Block/Misc/Block Core Zone.png" alt="Core Zone" class="flex-image" title="Core Zone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="regolith-wall">
+				<p><span class="main-title">Regolith Wall</span>
+					<img src="./Assets/V7/Environment Block/Regolith/Block Regolith Wall.png" alt="Regolith Wall" class="flex-image" title="Regolith Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="yellow-stone-wall">
+				<p><span class="main-title">Yellow Stone Wall</span>
+					<img src="./Assets/V7/Environment Block/Yellow Stone/Block Yellow Stone Wall.png" alt="Yellow Stone Wall" class="flex-image" title="Yellow Stone Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="rhyolite-wall">
+				<p><span class="main-title">Rhyolite Wall</span>
+					<img src="./Assets/V7/Environment Block/Rhyolite/Block Rhyolite Wall.png" alt="Rhyolite Wall" class="flex-image" title="Rhyolite Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="carbon-wall">
+				<p><span class="main-title">Carbon Wall</span>
+					<img src="./Assets/V7/Environment Block/Carbon/Block Carbon Wall.png" alt="Carbon Wall" class="flex-image" title="Carbon Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="ferric-stone-wall">
+				<p><span class="main-title">Ferric Stone Wall</span>
+					<img src="./Assets/V7/Environment Block/Ferric Stone/Block Ferric Stone Wall.png" alt="Ferric Stone Wall" class="flex-image" title="Ferric Stone Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="beryllic-stone-wall">
+				<p><span class="main-title">Beryllic Stone Wall</span>
+					<img src="./Assets/V7/Environment Block/Beryllic/Block Beryllic Stone.png" alt="Beryllic Stone" class="flex-image" title="Beryllic Stone"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="arkyic-wall">
+				<p><span class="main-title">Arkyic Wall</span>
+					<img src="./Assets/V7/Environment Block/Arkyic/Block Arkyic Wall.png" alt="Arkyic Wall" class="flex-image" title="Arkyic Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="crystalline-stone-wall">
+				<p><span class="main-title">Crystalline Stone Wall</span>
+					<img src="./Assets/V7/Environment Block/Crystal/Block Crystalline Stone Wall.png" alt="Crystalline Stone Wall" class="flex-image" title="Crystalline Stone Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-ice-wall">
+				<p><span class="main-title">Red Ice Wall</span>
+					<img src="./Assets/V7/Environment Block/Red Ice/Block Red Ice Wall.png" alt="Red Ice Wall" class="flex-image" title="Red Ice Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-stone-wall">
+				<p><span class="main-title">Red Stone Wall</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Red Stone Wall.png" alt="Red Stone Wall" class="flex-image" title="Red Stone Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+
+			<div class="box" id="red-diamond-wall">
+				<p><span class="main-title">Red Diamond Wall</span>
+					<img src="./Assets/V7/Environment Block/Red Stone/Block Red Diamond Wall.png" alt="Red Diamond Wall" class="flex-image" title="Red Diamond Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Size: 1×1
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h2 class="target" id="blocks">Blocks</h2>
+			<div class="box" id="silicon-arc-furnace">
+				<p><span class="main-title">Silicon Arc Furnace</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Silicon Arc Furnace.png" alt="Silicon Arc Furnace" class="flex-image" title="Silicon Arc Furnace"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 575<br>
+					Size: 3×3<br>
+					Build Time: 2.73 Seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×80 <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×70<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 360 Power Units/Second<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 30 Items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×1 <img src="./Assets/Items/Item Sand.png" alt="Sand" class="small-img" title="Sand"/>×4<br>
+					Output: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×4<br>
+					Production Time: 0.83 Seconds<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="surge-smelter">
+				<p><span class="main-title">Surge Smelter</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Surge Smelter.png" alt="Surge Smelter" class="flex-image" title="Surge Smelter"/><br>
+				<p class="texture-update">Mostly just Texture Update<br>
+					Old Texture:<img src="./Assets/Blocks/Factory/Block Alloy Smelter.png" alt="Alloy Smelter" title="Alloy Smelter" class="flex-image jump" onclick="window.location.href='./Wiki v6.html#alloy-smelter'" />
+					<span class="texture-update-smaller">Click the image to go to the Alloy Smelter in Wiki v6</span>
+				</p>
+				<span class="subsection">General</span><br>
+				Health: 430<br>
+				Size: 3×3<br>
+				Build Time: 3.28 seconds<br>
+				Build Cost: <img src="./Assets/Items/Item Lead.png" alt="Lead" class="small-img" title="Lead"/>×80 <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×70 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×80<br>
+				<span class="subsection">Power</span><br>
+				Power Use: 240 power units/second<br>
+				<span class="subsection">Items</span><br>
+				Item Capacity: 20 items<br>
+				<span class="subsection">Input/Output</span><br>
+				Input: <img src="./Assets/Items/Item Copper.png" alt="Copper" class="small-img" title="Copper"/>×3 <img src="./Assets/Items/Item Lead.png" alt="Lead" class="small-img" title="Lead"/>×4 <img src="./Assets/Items/Item Titanium.png" alt="Titanium" class="small-img" title="Titanium"/>×2 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×3<br>
+				Output: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×1<br>
+				Production Time: 1.25 seconds<br>
+				<span class="subsection">Description</span><br>
+				<span class="desc-text">"Fuses <span class="jump" onclick="window.location.href='./Wiki v6.html#item-titanium'">titanium</span>, <span class="jump" onclick="window.location.href='./Wiki v6.html#item-lead'">lead</span>, <span class="jump" onclick="window.location.href='./Wiki v6.html#item-silicon'">silicon</span> and <span class="jump" onclick="window.location.href='./Wiki v6.html#item-copper'">copper</span> into <span class="jump" onclick="window.location.href='./Wiki v6.html#item-surge-alloy'">surge alloy</span>."</span>
+				</p>
+			</div>
+
+			<div class="box" id="electrolyzer">
+				<p><span class="main-title">Electrolyzer</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Electrolyzer.png" alt="Electrolyzer" class="flex-image" title="Electrolyzer"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="atmospheric-concentrator">
+				<p><span class="main-title">Atmospheric Concentrator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Atmospheric Concentrator.png" alt="Atmospheric Concentrator" class="flex-image" title="Atmospheric Concentrator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="oxidation-chamber">
+				<p><span class="main-title">Oxidation Chamber</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Oxidation Chamber.png" alt="Oxidation Chamber" class="flex-image" title="Oxidation Chamber"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="electric-heater">
+				<p><span class="main-title">Electric Heater</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Electric Heater.png" alt="Electric Heater" class="flex-image" title="Electric Heater"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="slag-heater">
+				<p><span class="main-title">Slag Heater</span>
+					<img src="./Assets/V7/V7+/Block/Factory/Block Slag Heater.png" alt="Slag Heater" class="flex-image" title="Slag Heater"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1040<br>
+					Size: 3×3<br>
+					Build Time: 2.04 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×20 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×50 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×20<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 40 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Liquids/Liquid Slag.png" alt="Slag" class="small-img" title="Slag"/>40/sec<br>
+					Output: 6 heat units<br>
+					Production Time: 1.33 seconds<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="phase-heater">
+				<p><span class="main-title">Phase Heater</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Phase Heater.png" alt="Phase Heater" class="flex-image" title="Phase Heater"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 510<br>
+					size: 2×2<br>
+					Build Time: 1.9 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×30 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×30 <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×30<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Phase Fabric.png" alt="Phase Fabric" class="small-img" title="Phase Fabric"/>×1<br>
+					Output: 15 heat units<br>
+					Production Time: 15 seconds<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="heat-redirector">
+				<p><span class="main-title">Heat Redirector</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Heat Redirector.png" alt="Heat Redirector" class="flex-image" title="Heat Redirector"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 645<br>
+					Size: 3×3<br>
+					Build Time: 0.41 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×10 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×10<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="slag-incinerator">
+				<p><span class="main-title">Slag Incinerator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Slag Incinerator.png" alt="Slag Incinerator" class="flex-image" title="Slag Incinerator"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 70<br>
+					Size: 1×1<br>
+					Build Time: 0.37 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×15<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 10 liquid units<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Liquids/Liquid Slag.png" alt="Slag" class="small-img" title="Slag"/>2/sec<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="carbide-crucible">
+				<p><span class="main-title">Carbide Crucible</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Carbide Crucible.png" alt="Carbide Crucible" class="flex-image" title="Carbide Crucible"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 900<br>
+					Size: 3×3<br>
+					Build Time: 6.6 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×150 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×110 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×60<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 120 power units/second<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×2 <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×3 heat units<br>
+					Output: <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×1<br>
+					Production Time: 3 seconds<br>
+					Max Efficiency: 400%<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="slag-centrifuge">
+				<p><span class="main-title">Slag Centrifuge</span>
+					<img src="./Assets/V7/V7+/Block/Factory/Block Slag Centrifuge.png" alt="Slag Centrifuge" class="flex-image" title="Slag Centrifuge"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 935<br>
+					Size: 3×3<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 2 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 80 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Sand.png" alt="Sand" class="small-img" title="Sand"/>×1 <img src="./Assets/Items/Liquids/Liquid Slag.png" alt="Slag" class="small-img" title="Slag"/>40/sec<br>
+					Output: <img src="./Assets/V7/V7+/Items/Liquids/Gallium.png" alt="Gallium" class="small-img" title="Gallium"/>1/sec<br>
+					Production Time: 2 seconds<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="surge-crucible">
+				<p><span class="main-title">Surge Crucible</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Surge Crucible.png" alt="Surge Crucible" class="flex-image" title="Surge Crucible"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 825<br>
+					Size: 3×3<br>
+					Build Time: 6.25 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×80 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×100 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×80 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×80<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 120 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 400 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 20 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×3 <img src="./Assets/Items/Liquids/Liquid Slag.png" alt="Slag" class="small-img" title="Slag"/>40/sec 10 heat units<br>
+					Output: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×1<br>
+					Production Time: 3 seconds<br>
+					Max Efficiency: 400%<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="cyanogen-synthesizer">
+				<p><span class="main-title">Cyanogen Synthesizer</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Cyanogen Synthesizer.png" alt="Cyanogen Synthesizer" class="flex-image" title="Cyanogen Synthesizer"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 970<br>
+					Size: 3×3<br>
+					Build Time: 4.03 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×80 <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×90 <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×50<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 120 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 80 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Input: <img src="./Assets/V7/Items/Liquids/Liquid Arkycite.png" alt="Arkycite" class="small-img" title="Arkycite"/>40/sec <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×1 5 heat units<br>
+					Output: <img src="./Assets/V7/Items/Liquids/Liquid Cyanogen.png" alt="Cyanogen" class="small-img" title="Cyanogen"/>3/sec<br>
+					Production Time: 1.33 seconds<br>
+					Max Efficiency: 400%<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="phase-synthesizer">
+				<p><span class="main-title">Phase Synthesizer</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Phase Synthesizer.png" alt="Phase Synthesizer" class="flex-image" title="Phase Synthesizer"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1115<br>
+					Size: 3×3<br>
+					Build Time: 10.26 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×100 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×100 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×200 <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×90<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 480 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 40 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 40 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×2 <img src="./Assets/Items/Item Sand.png" alt="Sand" class="small-img" title="Sand"/>×6 <img src="./Assets/V7/Items/Liquids/Liquid Ozone.png" alt="Ozone" class="small-img" title="Ozone"/>2/sec 8 heat units<br>
+					Output: <img src="./Assets/Items/Item Phase Fabric.png" alt="Phase Fabric" class="small-img" title="Phase Fabric"/>×1<br>
+					Production Time: 2 seconds<br>
+					Max Efficiency: 400%<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="heat-reactor">
+				<p><span class="main-title">Heat Reactor</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Heat Reactor.png" alt="Heat Reactor" class="flex-image" title="Heat Reactor"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1005<br>
+					Size: 3×3<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 10 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 20 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×3 <img src="./Assets/V7/Items/Liquids/Liquid Nitrogen.png" alt="Nitrogen" class="small-img" title="Nitrogen"/>1/sec<br>
+					Output: <img src="./Assets/V7/Items/Item Fissile Matter.png" alt="Fissile Matter" class="small-img" title="Fissile Matter"/>×1 10 heat
+					units<br>
+					Production Time: 10 seconds<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="beryllium-wall">
+				<p><span class="main-title">Beryllium Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Beryllium Wall.png" alt="Beryllium Wall" class="flex-image" title="Beryllium Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 520<br>
+					Armor: 2<br>
+					Size: 1×1<br>
+					Build Time: 0.96 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×6<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-beryllium-wall">
+				<p><span class="main-title">Large Beryllium Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Beryllium Wall Large.png" alt="Large Beryllium Wall" class="flex-image" title="Large Beryllium Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 2080<br>
+					Armor: 2<br>
+					Size: 2×2<br>
+					Build time: 2.4 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×24<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="tungsten-wall">
+				<p><span class="main-title">Tungsten Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Tungsten Wall.png" alt="Tungsten Wall" class="flex-image" title="Tungsten Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 720<br>
+					Armor: 14<br>
+					Size: 1×1<br>
+					Build Time: 1.2 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×6<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-tungsten-wall">
+				<p><span class="main-title">Large Tungsten Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Tungsten Wall Large.png" alt="Large Tungsten Wall" class="flex-image" title="Large Tungsten Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 2880<br>
+					Armor: 14<br>
+					Size: 2×2<br>
+					Build Time: 3 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×24<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="blast-door">
+				<p><span class="main-title">Blast Door</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Blast Door.png" alt="Blast Door" class="flex-image" title="Blast Door"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 2800<br>
+					Armor: 14<br>
+					Size: 2×2<br>
+					Build Time: 5.51 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×24 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×24<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-surge-wall">
+				<p><span class="main-title">Reinforced Surge Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Reinforced Surge Wall.png" alt="Reinforced Surge Wall" class="flex-image" title="Reinforced Surge Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1000<br>
+					Armor: 20<br>
+					Size: 1×1<br>
+					Build Time: 1.02 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×6 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×2<br>
+					Lightning Chance: 5%<br>
+					Lightning Damage: 30<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-surge-wall-large">
+				<p><span class="main-title">Reinforced Surge Wall Large</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Reinforced Surge Wall Large.png" alt="Large Reinforced Surge Wall" class="flex-image" title="Large Reinforced Surge Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 4000<br>
+					Armor: 20<br>
+					Size: 2×2<br>
+					Build time: 4.08 seconds<br>
+					Build cost: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×24 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×8<br>
+					Lightning Chance: 5%<br>
+					Lightning Damage: 30<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="carbide-wall">
+				<p><span class="main-title">Carbide Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Carbide Wall.png" alt="Carbide Wall" class="flex-image" title="Carbide Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1080<br>
+					Armor: 16<br>
+					Size: 1×1<br>
+					Build Time: 1.5 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×6 <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×6<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-carbide-wall">
+				<p><span class="main-title">Large Carbide Wall</span>
+					<img src="./Assets/V7/Blocks/Walls/Block Carbide Wall Large.png" alt="Large Carbide Wall" class="flex-image" title="Large Carbide Wall"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 4320<br>
+					Armor: 16<br>
+					Size: 2×2<br>
+					Build Time: 6 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×24 <img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="small-img" title="Carbide"/>×24<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="radar">
+				<p><span class="main-title">Radar</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Radar.png" alt="Radar" class="flex-image" title="Radar"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 60<br>
+					Size: 1×1<br>
+					Build Time: 1.83 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×50 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×60 <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×10<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 36 power units/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="build-tower">
+				<p><span class="main-title">Build Tower</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Build Tower.png" alt="Build Tower" class="flex-image" title="Build Tower"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 610<br>
+					Size: 3×3<br>
+					Build Time: 3.9 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Thorium.png" alt="Thorium" class="small-img" title="Thorium"/>×60 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×150 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×40<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 180 power units/seconds<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 10 liquid units<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/V7/Items/Liquids/Liquid Nitrogen.png" alt="Nitrogen" class="small-img" title="Nitrogen"/>3/sec<br>
+					<span class="subsection">Function</span><br>
+					Range: 20 blocks<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="regen-projector">
+				<p><span class="main-title">Regen Projector</span>
+					<img src="./Assets/V7/Blocks/Defense/Block Regen Projector.png" alt="Regen Projector" class="flex-image" title="Regen Projector"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 1040<br>
+					Size: 3×3<br>
+					Build Time: 4.96 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×80 <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×80 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×60 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×40<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 60 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 10 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					<span class="subsection">Function</span><br>
+					Block Full Repair Time: 24 seconds<br>
+					Range: 28 blocks<br>
+					<span class="subsection">Optional Enhancements</span><br>
+					Booster: <img src="./Assets/Items/Item Phase Fabric.png" alt="Phase Fabric" class="small-img" title="Phase Fabric"/>×1<br>
+					Boost Effect: 2× speed<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="shield-projector">
+				<p><span class="main-title">Shield Projector</span>
+					<img src="./Assets/V7/Blocks/Defense/Block Shield Projector.png" alt="Shield Projector" class="flex-image" title="Shield Projector"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 360<br>
+					Size: 3×3<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 300 power units/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-shield-projector">
+				<p><span class="main-title">Large Shield Projector</span>
+					<img src="./Assets/V7/Blocks/Defense/Block Large Shield Projector.png" alt="Large Shield Projector" class="flex-image" title="Large Shield Projector"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 640<br>
+					Size: 4×4<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 300 power units/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="shield-breaker">
+				<p><span class="main-title">Shield Breaker (temp name/sprite)</span>
+					<img src="./Assets/V7/Blocks/Defense/Block Shield Breaker.png" alt="Shield Breaker" class="flex-image" title="Shield Breaker"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 3000<br>
+					Size: 5×5<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 100 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×100<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="duct">
+				<p><span class="main-title">Duct</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Duct.png" alt="Duct" class="flex-image" title="Duct"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 90<br>
+					Size: 1×1<br>
+					Build Time: 0.02 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×1<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 1 items<br>
+					Move Speed: 15 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="armored-duct">
+				<p><span class="main-title">Armored Duct</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Armored Duct.png" alt="Armored Duct" class="flex-image" title="Armored Duct"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 140<br>
+					Size: 1×1<br>
+					Build Time: 0.06 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×2 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×1<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 1 items<br>
+					Move Speed: 15 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="duct-router">
+				<p><span class="main-title">Duct Router</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Duct Router.png" alt="Duct Router" class="flex-image" title="Duct Router"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 90<br>
+					Size: 1×1<br>
+					Build Time: 0.2 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×10<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 1 items<br>
+					Move Speed: 15 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="overflow-duct">
+				<p><span class="main-title">Overflow Duct</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Overflow Duct.png" alt="Overflow Duct" class="flex-image" title="Overflow Duct"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 90<br>
+					Size: 1×1<br>
+					Build Time: 0.29 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×8 <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×8<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 1 items<br>
+					Move Speed: 15 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="duct-bridge">
+				<p><span class="main-title">Duct Bridge</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Duct Bridge.png" alt="Duct Bridge" class="flex-image" title="Duct Bridge"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 90<br>
+					Size: 1×1<br>
+					Build Time: 0.8 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="small-img" title="Beryllium"/>×20<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 4 items<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="duct-unloader">
+				<p><span class="main-title">Duct Unloader</span>
+					<img src="./Assets/V7/Blocks/Factory/Ducts/Block Duct Unloader.png" alt="Duct Unloader" class="flex-image" /><br><br>
+					<span class="subsection">General</span><br>
+					Health: 120<br>
+					Size: 1×1<br>
+					Build Time: 0.85 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×20 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×20 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×10<br>
+					Speed: 15 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="surge-conveyor">
+				<p><span class="main-title">Surge Conveyor</span>
+					<img src="./Assets/V7/Blocks/Factory/Conveyors/Block Surge Conveyor.png" alt="Surge Conveyor" class="flex-image" title="Surge Conveyor"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 130<br>
+					Size: 1×1<br>
+					Build Time: 0.04 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×1 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×1<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 1 power units/second<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					Move Speed: 50 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="surge-router">
+				<p><span class="main-title">Surge Router</span>
+					<img src="./Assets/V7/Blocks/Factory/Conveyors/Block Surge Router.png" alt="Surge Router" class="flex-image" title="Surge Router"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 130<br>
+					Size: 1×1<br>
+					Build Time: 0.12 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" class="small-img" title="Surge Alloy"/>×5 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="small-img" title="Tungsten"/>×1<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 3 power units/second<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 10 items<br>
+					Move Speed 100 items/second<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="unit-cargo-loader">
+				<p><span class="main-title">Unit Cargo Loader</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Unit Cargo Loader.png" alt="Unit Cargo Loader" class="flex-image" title="Unit Cargo Loader"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 630<br>
+					Size: 3×3<br>
+					Build Time: 2.46 seconds<br>
+					Build Cost: <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" title="Tungsten" class="small-img" />×80 <img src="./Assets/Items/Item Surge Alloy.png" alt="Surge Alloy" title="Surge Alloy" class="small-img"/>×50 <img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="small-img" title="Oxide"/>×20<br>
+					<span class="subsection">Power</span><br>
+					Power Use: 8 power units/second<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 10 liquid units<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 200 items<br>
+					<span class="subsection">Input/Output</span><br>
+					Input: <img src="./Assets/V7/Items/Liquids/Liquid Nitrogen.png" alt="Nitrogen" class="small-img" title="Nitrogen"/>×10/sec<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="unit-cargo-unload-point">
+				<p><span class="main-title">Unit Cargo Unload Point</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Unit Cargo Unload Point.png" alt="Unit Cargo Unload Point" class="flex-image" title="Unit Cargo Unload Point"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 285<br>
+					Size: 2×2<br>
+					Build Time: 2.3 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Silicon.png" alt="Silicon" title="Silicon" class="small-img">×60 <img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" title="Tungsten" class="small-img">×60<br>
+					<span class="subsection">Items</span><br>
+					Item Capacity: 100 items<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="impulse-pump">
+				<p><span class="main-title">Impulse Pump</span>
+					<img src="./Assets/V7/Blocks/Pumps/Block Impulse Pump.png" alt="Impulse Pump" class="flex-image" title="Impulse Pump"><br>
+				<p class="texture-update">Mostly just Texture Update<br>
+					Old Texture:<img src="./Assets/Blocks/Pumps/Block Thermal Pump.png" alt="Impulse Pump" title="Thermal Pump" class="flex-image jump" onclick="window.location.href='./Wiki v6.html#thermal-pump'">
+					<span class="texture-update-smaller">Click the image to go to the Thermal Pump in Wiki v6</span>
+				</p><br><br>
+				<span class="subsection">General</span><br>
+				<span class="subsection">Description</span><br>
+				<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="liquid-container">
+				<p><span class="main-title">Liquid Container</span>
+					<img src="./Assets/Blocks/Factory/Block Liquid Container.png" alt="Liquid Container" class="flex-image" title="Liquid Container"><br><br>
+					<span class="subsection">General</span><br>
+					Health: 160<br>
+					Size: 2×2<br>
+					Build Time: 0.52 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Metaglass.png" alt="Metaglass" title="Metaglass" class="small-img">×15 <img src="./Assets/Items/Item Titanium.png" alt="Titanium" title="Titanium" class="small-img">×10<br>
+					<span class="subsection">Liquids</span><br>
+					Liquid Capacity: 700 liquid units<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"Stores a sizeable amount of liquid. Outputs to all sides, similarly to a liquid router."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-pump">
+				<p><span class="main-title">Reinforced Pump</span>
+					<img src="./Assets/V7/Blocks/Pumps/Block Reinforced Pump.png" alt="Reinforced Pump" class="flex-image" title="Reinforced Pump"><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-conduit">
+				<p><span class="main-title">Reinforced Conduit</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Block Reinforced Conduit.png" alt="Reinforced Conduit" class="flex-image" title="Reinforced Conduit"><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-liquid-junction">
+				<p><span class="main-title">Reinforced Liquid Junction</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Block Reinforced Liquid Junction.png" alt="Reinforced Liquid Junction" class="flex-image" title="Reinforced Liquid Junction"><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-bridge-conduit">
+				<p><span class="main-title">Reinforced Bridge Conduit</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Block Reinforced Bridge Conduit.png" alt="Reinforced Bridge Conduit" class="flex-image" title="Reinforced Bridge Conduit"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-liquid-router">
+				<p><span class="main-title">Reinforced Liquid Router</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Block Reinforced Liquid Router.png" alt="Reinforced Liquid Router" class="flex-image" title="Reinforced Liquid Router"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-liquid-container">
+				<p><span class="main-title">Reinforced Liquid Container</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Reinforced Liquid Container.png" alt="Reinforced Liquid Container" class="flex-image" title="Reinforced Liquid Container"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-liquid-tank">
+				<p><span class="main-title">Reinforced Liquid Tank</span>
+					<img src="./Assets/V7/Blocks/Factory/Conduits/Block Reinforced Liquid Tank.png" alt="Reinforced Liquid Tank" class="flex-image" title="Reinforced Liquid Tank"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="beam-node">
+				<p><span class="main-title">Beam Node</span>
+					<img src="./Assets/V7/Blocks/Power/Block Beam Node.png" alt="Beam Node" class="flex-image" title="Beam Node"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="beam-tower">
+				<p><span class="main-title">Beam Tower</span>
+					<img src="./Assets/V7/Blocks/Power/Block Beam Tower.png" alt="Beam Tower" class="flex-image" title="Beam Tower"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="beam-link">
+				<p><span class="main-title">Beam Link</span>
+					<img src="./Assets/V7/Blocks/Power/Block Beam Link.png" alt="Beam Link" class="flex-image" title="Beam Link"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="turbine-condenser">
+				<p><span class="main-title">Turbine Condenser</span>
+					<img src="./Assets/V7/Blocks/Pumps/Block Turbine Condenser.png" alt="Turbine Condenser" class="flex-image" title="Turbine Condenser"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="chemical-combustion-chamber">
+				<p><span class="main-title">Chemical Combustion Chamber</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Chemical Combustion Chamber.png" alt="Chemical Combustion Chamber" class="flex-image" title="Chemical Combustion Chamber"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="pyrolysis-generator">
+				<p><span class="main-title">Pyrolysis Generator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Pyrolysis Generator.png" alt="Pyrolysis Generator" class="flex-image" title="Pyrolysis Generator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="vent-condenser">
+				<p><span class="main-title">Vent Condenser</span>
+					<img src="./Assets/V7/Blocks/Drills/Block Vent Condenser.png" alt="Vent Condenser" class="flex-image" title="Vent Condenser"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="cliff-crusher">
+				<p><span class="main-title">Cliff Crusher</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Cliff Crusher.png" alt="Cliff Crusher" class="flex-image" title="Cliff Crusher"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="plasma-bore">
+				<p><span class="main-title">Plasma Bore</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Plasma Bore.png" alt="Plasma Bore" class="flex-image" title="Plasma Bore"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-plasma-bore">
+				<p><span class="main-title">Large Plasma Bore</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Large Plasma Bore.png" alt="Large Plasma Bore" class="flex-image" title="Large Plasma Bore"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="impact-drill">
+				<p><span class="main-title">Impact Drill</span>
+					<img src="./Assets/V7/Blocks/Drills/Block Impact Drill.png" alt="Impact Drill" class="flex-image" title="Impact Drill"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="eruption-drill">
+				<p><span class="main-title">Eruption Drill</span>
+					<img src="./Assets/V7/Blocks/Drills/Block Eruption Drill.png" alt="Eruption Drill" class="flex-image" title="Eruption Drill"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="core-bastion">
+				<p><span class="main-title">Core: Bastion</span>
+					<img src="./Assets/V7/Blocks/Misc/Block Core Bastion.png" alt="Core: Bastion" class="flex-image" title="Core: Bastion"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="core-citadel">
+				<p><span class="main-title">Core: Citadel</span>
+					<img src="./Assets/V7/Blocks/Misc/Block Core Citadel.png" alt="Core: Citadel" class="flex-image" title="Core: Citadel"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="core-acropolis">
+				<p><span class="main-title">Core: Acropolis</span>
+					<img src="./Assets/V7/Blocks/Misc/Block Core Acropolis.png" alt="Core: Acropolis" class="flex-image" title="Core: Acropolis"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-container">
+				<p><span class="main-title">Reinforced Container</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Reinforced Container.png" alt="Reinforced Container" class="flex-image" title="Reinforced Container"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-vault">
+				<p><span class="main-title">Reinforced Vault</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Reinforced Vault.png" alt="Reinforced Vault" class="flex-image" title="Reinforced Vault"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="breach">
+				<p><span class="main-title">Breach</span>
+					<img src="./Assets/V7/Blocks/Turrets/Block Breach.png" alt="Breach" class="flex-image" title="Breach"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="diffuse">
+				<p><span class="main-title">Diffuse</span>
+					<img src="./Assets/V7/Blocks/Turrets/Block Diffuse.png" alt="Diffuse" class="flex-image" title="Diffuse"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="sublimate">
+				<p><span class="main-title">Sublimate</span>
+					<img src="./Assets/V7/Blocks/Turrets/Block Sublimate.png" alt="Sublimate" class="flex-image" title="Sublimate"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="titan">
+				<p><span class="main-title">Titan</span>
+					<img src="./Assets/V7/Blocks/Turrets/Block Titan.png" alt="Titan" class="flex-image" title="Titan"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="disperse">
+				<p><span class="main-title">Disperse</span>
+					<img src="./Assets/V7/Blocks/Turrets/Block Disperse.png" alt="Disperse" class="flex-image" title="Disperse"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="afflict">
+				<p><span class="main-title">Afflict</span>
+					<img src="./Assets/V7/V7+/Block/Turrets/Block Afflict.png" alt="Afflict" class="flex-image" title="Afflict"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="command-center">
+				<p><span class="main-title removed strike-select">Command Center</span>
+					<img src="./Assets/Blocks/Misc/Block Command Center.png" alt="Command Center" title="Command Center" class="flex-image jump" onclick="window.location.href='./Wiki v6.html#command-center'" /><br><br>
+					<span class="removed-text">Has been removed in V7</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Health: 220<br>
+					Size: 2×2<br>
+					Build Time: 9.58 seconds<br>
+					Build Cost: <img src="./Assets/Items/Item Copper.png" alt="Copper" class="small-img" title="Copper">×200 <img src="./Assets/Items/Item Lead.png" alt="Lead" class="small-img" title="Lead"/>×250 <img src="./Assets/Items/Item Graphite.png" alt="Graphite" class="small-img" title="Graphite"/>×100 <img src="./Assets/Items/Item Silicon.png" alt="Silicon" class="small-img" title="Silicon"/>×250<br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"Controls unit behavior with several different commands."</span>
+				</p>
+			</div>
+
+			<div class="box" id="tank-fabricator">
+				<p><span class="main-title">Tank Fabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Tank Fabricator.png" alt="Tank Fabricator" class="flex-image" title="Tank Fabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="ship-fabricator">
+				<p><span class="main-title">Ship Fabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Ship Fabricator.png" alt="Ship Fabricator" class="flex-image" title="Ship Fabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="mech-fabricator">
+				<p><span class="main-title">Mech Fabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Mech Fabricator.png" alt="Mech Fabricator" class="flex-image" title="Mech Fabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="tank-refabricator">
+				<p><span class="main-title">Tank Refabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Tank Refabricator.png" alt="Tank Refabricator" class="flex-image" title="Tank Refabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="mech-refabricator">
+				<p><span class="main-title">Mech Refabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Mech Refabricator.png" alt="Mech Refabricator" class="flex-image" title="Mech Refabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="ship-refabricator">
+				<p><span class="main-title">Ship Refabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Ship Refabricator.png" alt="Ship Refabricator" class="flex-image" title="Ship Refabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="prime-refabricator">
+				<p><span class="main-title">Prime Refabricator</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Prime Refabricator.png" alt="Prime Refabricator" class="flex-image" title="Prime Refabricator"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="tank-assembler">
+				<p><span class="main-title">Tank Assembler</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Tank Assembler.png" alt="Tank Assembler" class="flex-image" title="Tank Assembler"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="ship-assembler">
+				<p><span class="main-title">Ship Assembler</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Ship Assembler.png" alt="Ship Assembler" class="flex-image" title="Ship Assembler"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="mech-assembler">
+				<p><span class="main-title">Mech Assembler</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Mech Assembler.png" alt="Mech Assembler" class="flex-image" title="Mech Assembler"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="basic-assembler-module">
+				<p><span class="main-title">Basic Assembler Module</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Basic Assembler Module.png" alt="Assembler Module" class="flex-image" title="Basic Assembler Module"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="unit-repair-tower">
+				<p><span class="main-title">Unit Repair Tower</span>
+					<img src="./Assets/V7/Blocks/Factory/Block Unit Repair Tower.png" alt="Unit Repair Tower" class="flex-image" title="Unit Repair Tower"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-payload-conveyor">
+				<p><span class="main-title">Reinforced Payload Conveyor</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Reinforced Payload Conveyor.png" alt="Reinforced Payload Conveyor" class="flex-image" title="Reinforced Payload Conveyor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="reinforced-payload-router">
+				<p><span class="main-title">Reinforced Payload Router</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Reinforced Payload Router.png" alt="Reinforced Payload Router" class="flex-image" title="Reinforced Payload Router"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-mass-driver">
+				<p><span class="main-title">Payload Mass Driver</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Mass Driver.png" alt="Payload Mass Driver" class="flex-image" title="Payload Mass Driver"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-propulsion-tower">
+				<p><span class="main-title">Payload Propulsion Tower</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Propulsion Tower.png" alt="Payload Propulsion Tower" class="flex-image" title="Payload Propulsion Tower"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="small-deconstructor">
+				<p><span class="main-title">Small Deconstructor</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Small Deconstructor.png" alt="Small Deconstructor" class="flex-image" title="Small Deconstructor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="deconstructor">
+				<p><span class="main-title">Deconstructor</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Deconstructor.png" alt="Deconstructor" class="flex-image" title="Deconstructor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="constructor">
+				<p><span class="main-title">Constructor</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Constructor.png" alt="Constructor" class="flex-image" title="Constructor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="large-constructor">
+				<p><span class="main-title">Large Constructor</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Large Constructor.png" alt="Large Constructor" class="flex-image" title="Large Constructor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-loader">
+				<p><span class="main-title">Payload Loader</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Loader.png" alt="Payload Loader" class="flex-image" title="Payload Loader"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-unloader">
+				<p><span class="main-title">Payload Unloader</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Unloader.png" alt="Payload Unloader" class="flex-image" title="Payload Unloader"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-source">
+				<p><span class="main-title">Payload Source</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Source.png" alt="Payload Source" class="flex-image" title="Payload Source"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="payload-void">
+				<p><span class="main-title">Payload Void</span>
+					<img src="./Assets/V7/Blocks/Factory/Payload/Block Payload Void.png" alt="Payload Void" class="flex-image" title="Payload Void"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="canvas">
+				<p><span class="main-title">Canvas</span>
+					<img src="./Assets/V7/Blocks/Logic/Block Canvas.png" alt="Canvas" class="flex-image" title="Canvas"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="world-processor">
+				<p><span class="main-title">World Processor</span>
+					<img src="./Assets/V7/Blocks/Logic/Block World Processor.png" alt="World Processor" class="flex-image" title="World Processor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="world-cell">
+				<p><span class="main-title">World Cell</span>
+					<img src="./Assets/V7/Blocks/Logic/Block World Cell.png" alt="World Cell" class="flex-image" title="World Cell"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="items">Items</h3>
+			<div class="box" id="beryllium-item">
+				<p><span class="main-title">Beryllium</span>
+					<img src="./Assets/V7/Items/Item Beryllium.png" alt="Beryllium" class="flex-image" title="Beryllium"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="tungsten-item">
+				<p><span class="main-title">Tungsten</span>
+					<img src="./Assets/V7/Items/Item Tungsten.png" alt="Tungsten" class="flex-image" title="Tungsten"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="oxide-item">
+				<p><span class="main-title">Oxide</span>
+					<img src="./Assets/V7/Items/Item Oxide.png" alt="Oxide" class="flex-image" title="Oxide"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="carbine-item">
+				<p><span class="main-title">Carbine</span>
+					<img src="./Assets/V7/Items/Item Carbide.png" alt="Carbide" class="flex-image" title="Carbide"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="dormant-cyst-item">
+				<p><span class="main-title">Dormant Cyst</span>
+					<img src="./Assets/V7/Items/Item Dormant Cyst.png" alt="Dormant Cyst" class="flex-image" title="Dormant Cyst"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="fissile-matter-item">
+				<p><span class="main-title">Fissile Matter</span>
+					<img src="./Assets/V7/Items/Item Fissile Matter.png" alt="Fissile Matter" class="flex-image" title="Fissile Matter"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="liquids">Liquids</h3>
+			<div class="box" id="cyanogen-liquid">
+				<p><span class="main-title">Cyanogen</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Cyanogen.png" alt="Cyanogen" class="flex-image" title="Cyanogen"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="arkycite-liquid">
+				<p><span class="main-title">Arkycite</span>
+					<img src="./Assets/V7/Items//Liquids/Liquid Arkycite.png" alt="Arkycite" class="flex-image" title="Arkycite"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="ozone-liquid">
+				<p><span class="main-title">Ozone</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Ozone.png" alt="Ozone" class="flex-image" title="Ozone"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="hydrogen-liquid">
+				<p><span class="main-title">Hydrogen</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Hydrogen.png" alt="Hydrogen" class="flex-image" title="Hydrogen"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="nitrogen-liquid">
+				<p><span class="main-title">Nitrogen</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Nitrogen.png" alt="Nitrogen" class="flex-image" title="Nitrogen"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="gallium-liquid">
+				<p><span class="main-title">Gallium</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Gallium.png" alt="Gallium" class="flex-image" title="Gallium"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="neoplasm-liquid">
+				<p><span class="main-title">Neoplasm</span>
+					<img src="./Assets/V7/Items/Liquids/Liquid Neoplasm.png" alt="Neoplasm" class="flex-image" title="Neoplasm"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="logic-title">Logic</h3>
+			<div class="box" id="canvas-logic">
+				<p><span class="main-title">Canvas</span>
+					<img src="./Assets/V7/Blocks/Logic/Block Canvas.png" alt="Canvas" class="flex-image" title="Canvas"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="world-processor-logic">
+				<p><span class="main-title">World Processor</span>
+					<img src="./Assets/V7/Blocks/Logic/Block World Processor.png" alt="World Processor" class="flex-image" title="World Processor"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+
+			<div class="box" id="world-cell-logic">
+				<p><span class="main-title">World Cell</span>
+					<img src="./Assets/V7/Blocks/Logic/Block World Cell.png" alt="World Cell" class="flex-image" title="World Cell"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">"There is no description provided yet."</span>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="planets">Planets</h3>
+			<div class="box" id="erekir">
+				<p><span class="main-title">Erekir</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Sectors: {Number}
+				</p>
+			</div>
+
+			<div class="box" id="gier">
+				<p><span class="main-title">Gier</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Sectors: {Number}
+				</p>
+			</div>
+
+			<div class="box" id="notva">
+				<p><span class="main-title">Notva</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Sectors: {Number}
+				</p>
+			</div>
+
+			<div class="box" id="tantros">
+				<p><span class="main-title">Tantros</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Sectors: {Number}
+				</p>
+			</div>
+
+			<div class="box" id="verlius">
+				<p><span class="main-title">Verlius</span>
+					<img src="./Assets/Blocks/Errors/Error.png" alt="Oh No" class="flex-image" title="Oh No"/><br><br>
+					<span class="subsection">General</span><br>
+					Sectors: {Number}
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="units">Units</h3>
+			<div class="box" id="stell-unit">
+				<p><span class="main-title">Stell</span>
+					<img src="./Assets/V7/Units/Unit Stell.png" alt="Stell" class="flex-image" title="Stell"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="locus-unit">
+				<p><span class="main-title">Locus</span>
+					<img src="./Assets/V7/Units/Unit Locus.png" alt="Locus" class="flex-image" title="Locus"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="precept-unit">
+				<p><span class="main-title">Precept</span>
+					<img src="./Assets/V7/Units/Unit Precept.png" alt="Precept" class="flex-image" title="Precept"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="vanquish-unit">
+				<p><span class="main-title">Vanquish</span>
+					<img src="./Assets/V7/Units/Unit Vanquish.png" alt="Vanquish" class="flex-image" title="Vanquish"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="conquer-unit">
+				<p><span class="main-title">Conquer</span>
+					<img src="./Assets/V7/Units/Unit Conquer.png" alt="Conquer" class="flex-image" title="Conquer"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="merui-unit">
+				<p><span class="main-title">Merui</span>
+					<img src="./Assets/V7/Units/Unit Merui.png" alt="Merui" class="flex-image" title="Merui"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="cleroi-unit">
+				<p><span class="main-title">Cleroi</span>
+					<img src="./Assets/V7/Units/Unit Cleroi.png" alt="Cleroi" class="flex-image" title="Cleroi"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="anthicus-unit">
+				<p><span class="main-title">Anthicus</span>
+					<img src="./Assets/V7/Units/Unit Anthicus.png" alt="Anthicus" class="flex-image" title="Anthicus"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="tecta-unit">
+				<p><span class="main-title">Tecta</span>
+					<img src="./Assets/V7/Units/Unit Tecta.png" alt="Tecta" class="flex-image" title="Tecta"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="collaris-unit">
+				<p><span class="main-title">Collaris</span>
+					<img src="./Assets/V7/Units/Unit Collaris.png" alt="Collaris" class="flex-image" title="Collaris"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="elude-unit">
+				<p><span class="main-title">Elude</span>
+					<img src="./Assets/V7/Units/Unit Elude.png" alt="Elude" class="flex-image" title="Elude"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="avert-unit">
+				<p><span class="main-title">Avert
+						<img src="./Assets/V7/Units/Unit Avert.png" alt="Avert" class="flex-image" title="Avert"/><br><br>
+						<span class="subsection">General</span><br>
+						<span class="subsection">Description</span><br>
+						<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="obviate-unit">
+				<p><span class="main-title">Obviate</span>
+					<img src="./Assets/V7/Units/Unit Obviate.png" alt="Obviate" class="flex-image" title="Obviate"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="quell-unit">
+				<p><span class="main-title">Quell</span>
+					<img src="./Assets/V7/Units/Unit Quell.png" alt="Quell" class="flex-image" title="Quell"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="disrupt-unit">
+				<p><span class="main-title">Disrupt</span>
+					<img src="./Assets/V7/Units/Unit Disrupt.png" alt="Disrupt" class="flex-image" title="Disrupt"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="evoke-unit">
+				<p><span class="main-title">Evoke</span>
+					<img src="./Assets/V7/Units/Unit Evoke.png" alt="Evoke" class="flex-image" title="Evoke"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="incite-unit">
+				<p><span class="main-title">Incite</span>
+					<img src="./Assets/V7/Units/Unit Incite.png" alt="Incite" class="flex-image" title="Incite"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+
+			<div class="box" id="emanate-unit">
+				<p><span class="main-title">Emanate</span>
+					<img src="./Assets/V7/Units/Unit Emanate.png" alt="Emanate" class="flex-image" title="Emanate"/><br><br>
+					<span class="subsection">General</span><br>
+					<span class="subsection">Description</span><br>
+					<span class="desc-text">Description goes here</span>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h3 class="target" id="unit-weapons">Unit Weapons</h3>
+			<div class="box" id="anthicus-weapon-blade">
+				<p><span class="main-title">Anthicus Weapon Blade</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Anthicus Weapon Blade Outline.png" alt="Anthicus Weapon Blade" class="flex-image" title="Anthicus Weapon Blade"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="anthicus-weapon">
+				<p><span class="main-title">Anthicus Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Anthicus Weapon Outline.png" alt="Anthicus Weapon" class="flex-image" title="Anthicus Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="avert-weapon">
+				<p><span class="main-title">Avert Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Avert Weapon Outline.png" alt="Avert Weapon" class="flex-image" title="Avert Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="build-weapon">
+				<p><span class="main-title">Build Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Build Weapon.png" alt="Build Weapon" class="flex-image" title="Build Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="cleroi-weapon">
+				<p><span class="main-title">Cleroi Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Cleroi Weapon.png" alt="Cleroi Weapon" class="flex-image" title="Cleroi Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="collaris-weapon-blade">
+				<p><span class="main-title">Collaris Weapon Blade</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Collaris Weapon Blade Outline.png" alt="Collaris Weapon Blade" class="flex-image" title="Collaris Weapon Blade"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="collaris-weapon">
+				<p><span class="main-title">Collaris Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Collaris Weapon Outline.png" alt="Collaris Weapon" class="flex-image" title="Collaris Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="conquer-weapon-blade">
+				<p><span class="main-title">Conquer Weapon Blade</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Conquer Weapon Blade Outline.png" alt="Conquer Weapon" class="flex-image" title="Conquer Weapon Blade"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="conquer-weapon">
+				<p><span class="main-title">Conquer Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Conquer Weapon Outline.png" alt="Conquer Weapon" class="flex-image" title="Conquer Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="conquer-weapon-sides">
+				<p><span class="main-title">Conquer Weapon Sides</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Conquer Weapon Sides Outline.png" alt="Conquer Weapon Sides" class="flex-image" title="Conquer Weapon Sides"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="disrupt-weapon-blade">
+				<p><span class="main-title">Disrupt Weapon Blade</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Disrupt Weapon Blade Outline.png" alt="Disrupt Weapon Blade" class="flex-image" title="Disrupt Weapon Blade"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="disrupt-weapon">
+				<p><span class="main-title">Disrupt Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Disrupt Weapon Outline.png" alt="Disrupt Weapon" class="flex-image" title="Disrupt Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="disrupt-weapon-preview">
+				<p><span class="main-title">Disrupt Weapon Preview</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Disrupt Weapon Preview.png" alt="Disrupt Weapon Preview" class="flex-image" title="Disrupt Weapon Preview"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="elude-weapon">
+				<p><span class="main-title">Elude Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Elude Weapon.png" alt="Elude Weapon" class="flex-image" title="Elude Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="incite-weapon">
+				<p><span class="main-title">Incite Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Incite Weapon.png" alt="Incite Weapon" class="flex-image" title="Incite Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="locus-weapon">
+				<p><span class="main-title">Locus Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Locus Weapon.png" alt="Locus Weapon" class="flex-image" title="Locus Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="precept-weapon">
+				<p><span class="main-title">Precept Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Precept Weapon.png" alt="Precept Weapon" class="flex-image" title="Precept Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="quell-weapon">
+				<p><span class="main-title">Quell Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Quell Weapon.png" alt="Quell Weapon" class="flex-image" title="Quell Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="stell-weapon">
+				<p><span class="main-title">Stell Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Stell Weapon.png" alt="Stell Weapon" class="flex-image" title="Stell Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="tecta-weapon">
+				<p><span class="main-title">Tecta Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Tecta Weapon Outline.png" alt="Tecta Weapon" class="flex-image" title="Tecta Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="vanquish-point-weapon">
+				<p><span class="main-title">Vanquish Point Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Vanquish Point Weapon.png" alt="Vanquish Point Weapon" class="flex-image" title="Vanquish Point Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+
+			<div class="box" id="vanquish-weapon">
+				<p><span class="main-title">Vanquish Weapon</span>
+					<img src="./Assets/V7/Units/Unit Weapons/Vanquish Weapon.png" alt="Vanquish Weapon" class="flex-image" title="Vanquish Weapon"/><br><br>
+					<span class="subsection">General</span><br>
+				</p>
+			</div>
+		</article>
+
+		<article>
+			<h2 id="teams" class="target">Teams</h2>
+			<div class="box" id="malis-team">
+				<p><span class="main-title">Malis</span>
+					<img src="./Assets/V7/Teams/Team Malis.png" alt="Malis" class="flex-image" title="Malis"/><br><br>
+				</p>
+			</div>
+
+			<div class="box" id="crux-team">
+				<p><span class="main-title">Crux</span>
+					<img src="./Assets/V7/Teams/Team Crux - v7.png" alt="Crux v7" class="flex-image" title="Crux v7"/><br><br>
+					Old Icon: <img src="./Assets/Teams/Team Crux.png" alt="Crux" class="flex-image jump" title="Crux v6" onclick="window.location.href='./Wiki v6.html#crux-team'" /><br>
+				</p>
+			</div>
+		</article>
+
+	</div>
+
+	<section class="code-info">
+		<h2>Code Information</h2>
+		<!-- Code Information about the HTML5 File -->
+		<pre class="code-info-box">
+Mime Type: <span id="graphite" class="code-select">text</span>/<span id="slag" class="code-select">html</span>
+Code Format: <span id="slag" class="code-select">HTML</span>
+Code Format Version: <span id="slag" class="code-select">HTML</span> 5.0
+</pre>
+	</section>
+
+	<footer class="copyright" role="contentinfo">
+		<!-- Copyright Date Script -->
+		©
+		<!-- The Script will embed Copyright Date here -->
+		<script src="./JS/copyright.js"></script><br>
+		<!-- Copyright Footer Text -->
+		<span class="copy-mindustry jump" onclick="window.location.href='https://anuke.itch.io/Mindustry'" title="Mindustry">Mindustry</span> –
+		<span class="copy-anuken jump" onclick="window.location.href='https://github.com/Anuken'" title="Anuken">Anuken</span> —
+		<span class="copy-jirachi6774 jump" onclick="window.location.href='https://twitter.com/Jirachi6774'" title="Jirachi6774">Jirachi6774</span> –
+		<span class="copy-titannidoking jump" onclick="window.location.href='https://twitter.com/TitanNidoking'" title="TitanNidoking">TitanNidoking</span>
+		<!-- End of the Copyright Footer Text -->
+	</footer>
+
+	<hr class="white-space">
+</body>
+
+</html>

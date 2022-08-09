@@ -1,0 +1,277 @@
+/* Styling for the Mindustry Wiki Document */
+
+:root {
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+}
+
+body {
+	background-image: url('../Assets/Misc/Schematic Background.png');
+	color: #EEEEEE;
+	font-family: Font;
+	/* Custom Cursor for the Page */
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+	/* End of the Custom Cursor */
+}
+
+@font-face {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+.head {
+	margin: 2px;
+}
+
+.head-img {
+	width: 100%;
+	user-select: none;
+}
+
+.white-space {
+	border-style: none;
+	border-color: rgba(255, 255, 255, 0);
+	height: 5px;
+}
+
+.text-box {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.TOC-flex {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 10px;
+	padding-right: 10px;
+	justify-content: center;
+}
+
+.TOC-figure {
+	margin: 2px;
+	text-align: center;
+	font-size: 13px;
+	background-image: url('../Assets/Misc/Space.png');
+	box-shadow: 0 0 9px black;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 450px;
+	height: 200px;
+	overflow: scroll;
+	user-select: none;
+	animation: TOC-figure 140s infinite ease;
+}
+
+@keyframes TOC-figure {
+	10% {
+		background-position: right top;
+	}
+
+	20% {
+		background-position: center top;
+	}
+
+	30% {
+		background-position: left bottom;
+	}
+
+	40% {
+		background-position: right bottom;
+	}
+
+	50% {
+		background-position: center;
+	}
+
+	60% {
+		background-position: left top;
+	}
+
+	70% {
+		background-position: left center;
+	}
+
+	80% {
+		background-position: right top;
+	}
+
+	90% {
+		background-position: center center;
+	}
+}
+
+.scroll-box {
+	scroll-behavior: smooth;
+}
+
+/* Scroll Bar */
+
+/* Width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(136, 136, 136, 0.5);
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555555;
+}
+
+::-webkit-scrollbar-corner {
+	background: rgba(255, 255, 255, 0);
+}
+
+/* Scroll Bar Ending */
+
+.box {
+	background-image: url('../Assets/Misc/Blue\ Titanium.png');
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	max-width: 450px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	box-shadow: 0 0 5px black;
+}
+
+.box-title {
+	text-shadow: 0 0 5px currentColor;
+}
+
+.box-img {
+	display: flex;
+}
+
+.small-img {
+	width: 4%;
+}
+
+.warn-box {
+	background-color: black;
+	padding-top: 0.20px;
+	padding-bottom: 0.20px;
+	user-select: none;
+}
+
+.spawn-warn {
+	color: #FB2814;
+	animation: spawn-warn 2s infinite;
+}
+
+.warn {
+	color: #FB2814;
+}
+
+@keyframes spawn-warn {
+	50% {
+		color: white;
+	}
+}
+
+/*
+::-webkit-scrollbar the scrollbar.
+::-webkit-scrollbar-button the buttons on the scrollbar (arrows pointing upwards and downwards).
+::-webkit-scrollbar-thumb the draggable scrolling handle.
+::-webkit-scrollbar-track the track (progress bar) of the scrollbar.
+::-webkit-scrollbar-track-piece the track (progress bar) NOT covered by the handle.
+::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
+::-webkit-resizer the draggable resizing handle that appears at the bottom corner of some elements.
+*/
+
+.credit-spacing {
+	line-height: 20px;
+}
+
+.credit-link:link {
+	cursor: url(../Assets/Cursor/Hand.png) 30 24, default;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: 3px;
+}
+
+.credit-link:hover {
+	cursor: url(../Assets/Cursor/Hand.png) 30 24, default;
+	text-shadow: 0 0 2px currentColor;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: 3px;
+}
+
+.button {
+	background-color: #212121;
+	font-family: Font;
+	color: white;
+	padding: 5px;
+	border-color: #FFD27E;
+	border-radius: 50px;
+	border-style: solid;
+	user-select: none;
+	cursor: url(../Assets/Cursor/Hand.png) 30 24, pointer;
+	margin-top: 1.50px;
+	margin-bottom: 1.50px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 11px;
+}
+
+.button-box {
+	display: flexbox;
+}
+
+.button:hover {
+	border-color: #F15454;
+	user-select: none;
+	text-shadow: 0 0 5px #F15454;
+	box-shadow: 0 0 5px #F15454;
+}
+
+.pulse:hover {
+	transition: all 0.50s ease-in-out;
+}
+
+.jump:link {
+	/* Custom Cursor Stuff */
+	cursor: url(../Assets/Cursor/Hand.png) 30 24, default;
+	/* Custom Cursor Stuff End */
+}
+
+.jump:hover {
+	/* Custom Cursor Stuff */
+	cursor: url(../Assets/Cursor/Hand.png) 30 24, default;
+	text-shadow: 0 0 5px currentColor;
+	/* Custom Cursor Stuff End */
+}
+
+.target:target {
+	color: #FFD27E;
+	text-shadow: 0 0 8px #212121;
+	animation: target 2s infinite;
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+}
+
+@keyframes target {
+	50% {
+		color: white;
+	}
+}
+
+mark {
+	background-color: #FFD27E;
+	padding: 2px 2px;
+	border-radius: 3px 6px 3px 6px;
+	color: #EEEEEE;
+	box-shadow: 0 0 3px #FFD27E;
+}

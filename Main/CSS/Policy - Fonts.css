@@ -1,0 +1,27 @@
+/* CSS for all the Fonts used inside the Policy document */
+
+@font-face {
+    font-family: Fontello;
+    src: url('../Assets/Misc/Fonts/Font.ttf');
+    src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url('../Assets/Misc/Fonts/RobotoMono.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../Assets/Misc/Fonts/Roboto.ttf');
+}
+
+@font-face {
+    font-family: "Animdustry Font";
+    src: url('../Assets/V7/Misc/Animdustry\ Font.ttf');
+}
+
+@font-face {
+    font-family: "Animdustry Title";
+    src: url('../Assets/V7/Misc/Animdustry\ Title.ttf');
+}

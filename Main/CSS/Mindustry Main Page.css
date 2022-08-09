@@ -1,0 +1,39 @@
+/* Main Page of Mindustry Wiki Styling */
+
+:root {
+	cursor: url(../Assets/Cursor/Cursor.png) 30 24, default;
+	font-family: Font;
+	background-color: #353535;
+	color: #FFFFFF;
+}
+
+@font-face  {
+	font-family: 'Font';
+	src: url('../Assets/Misc/Fonts/Font.ttf');
+	src: url('../Assets/Misc/Fonts/Font.woff');
+}
+
+.header {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.flex-box {
+	display: flex;
+}
+
+.page-box {
+	width: 300px;
+	background-color: #454545;
+	padding: 8px;
+	margin: 5px;
+	box-shadow: 1px 1px 3px #656565;
+	border-radius: 5px;
+}
+
+.progress {
+	color: null;
+}
