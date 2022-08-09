@@ -1,0 +1,529 @@
+Environment Blocks
+ Enemy Spawn
+ White Tree Dead
+ White Tree
+ Spore Cluster
+ Redweed
+ Pur Bush
+ Yellowcoral
+ Boulder
+ Snow Boulder
+ Shale Boulder
+ Sand Boulder
+ Dacite Boulder
+ Basalt Boulder
+ Carbon Boulder
+ Ferric Boulder
+ Beryllic Boulder
+ Yellow Stone Boulder
+ Arkyic Boulder
+ Crystal Cluster
+ Vibrant Crystal Cluster
+ Crystal Blocks
+ Crystal Orbs
+ Crystalline Boulder
+ Red Ice Boulder
+ Rhyolite Boulder
+ Red Stone Boulder
+ Metal Floor 1
+ Damaged Metal Floor
+ Metal Floor 2
+ Metal Floor 3
+ Metal Floor 4
+ Metal Floor 5
+ Dark Panel 1
+ Dark Panel 2
+ Dark Panel 3
+ Dark Panel 4
+ Dark Panel 5
+ Dark Panel 6
+ Dark Metal
+ Pebbles
+ Tendrils
+ Copper
+ Lead
+ Scrap
+ Coal
+ Titanium
+ Thorium
+ Beryllium
+ Tungsten
+ Crystal Thorium
+ Thorium (Wall)
+ Beryllium (Wall)
+ Graphitic Wall
+ Tungsten (Wall)
+ Deep Water
+ Water
+ Tainted Water
+ Deep Tainted Water
+ Dark Sand Tainted Water
+ Sand Water
+ Dark Sand Water
+ Tar
+ Cryofluid
+ Slag
+ Space
+ Empty
+ Stone
+ Craters
+ Char
+ Basalt
+ Hot Rock
+ Magma Rock
+ Sand
+ Dark Sand
+ Dirt
+ Mud
+ Dacite
+ Rhyolite
+ Rhyolite Crater
+ Rough Rhyolite
+ Regolith
+ Yellow Stone
+ Carbon Stone
+ Ferric Stone
+ Ferric Craters
+ Beryllic Stone
+ Crystalline Stone
+ Crystalline Floor
+ Yellow Stone Plates
+ Red Stone
+ Dense Red Stone
+ Red Ice
+ Arkycite Floor
+ Arkyic Stone
+ Rhyolite Vent
+ Carbon Vent
+ Arkyic Vent
+ Yellow Stone Vent
+ Red Stone Vent
+ Redmat
+ Bluemat
+ Grass
+ Salt
+ Snow
+ Ice
+ Ice Snow
+ Shale
+ Moss
+ Core Zone
+ Spore Moss
+ Stone Wall
+ Spore Wall
+ Dirt Wall
+ Dacite Wall
+ Ice Wall
+ Snow Wall
+ Dune Wall
+ Regolith Wall
+ Yellow Stone Wall
+ Rhyolite Wall
+ Carbon Wall
+ Ferric Stone Wall
+ Beryllic Stone Wall
+ Arkyic Wall
+ Crystalline Stone Wall
+ Red Ice Wall
+ Red Stone Wall
+ Red Diamond Wall
+ Sand Wall
+ Salt Wall
+ Shrubs
+ Shale Wall
+ Spore Pine
+ Snow Pine
+ Pine
+
+Blocks
+ Graphite Press
+ Multi-Press
+ Silicon Smelter
+ Silicon Crucible
+ Silicon Arc Furnace
+ Kiln
+ Plastanium Compressor
+ Phase Weaver
+ Surge Smelter / Alloy Smelter
+ Cryofluid Mixer
+ Pyratite Mixer
+ Blast Mixer
+ Melter
+ Separator
+ Disassembler
+ Spore Press
+ Pulverizer
+ Coal Centrifuge
+ Incinerator
+ Electrolyzer
+ Atmospheric Concentrator
+ Oxidation Chamber
+ Electric Heater
+ Slag Heater
+ Phase Heater
+ Heat Redirector
+ Slag Incinerator
+ Carbide Crucible
+ Slag Centrifuge
+ Surge Crucible
+ Cyanogen Synthesizer
+ Phase Synthesizer
+ Heat Reactor
+ Copper Wall
+ Large Copper Wall
+ Titanium Wall
+ Large Titanium Wall
+ Plastanium Wall
+ Large Plastanium Wall
+ Thorium Wall
+ Large Thorium Wall
+ Phase Wall
+ Large Phase Wall
+ Surge Wall
+ Large Surge Wall
+ Door
+ Large Door
+ Scrap Wall
+ Large Scrap Wall
+ Huge Scrap Wall
+ Gigantic Scrap Wall
+ Thruster
+ Beryllium Wall
+ Large Beryllium Wall
+ Tungsten Wall
+ Large Tungsten Wall
+ Blast Door
+ Reinforced Surge Wall
+ Large Reinforced Surge Wall
+ Carbide Wall
+ Large Carbide Wall
+ Mender
+ Mend Projector
+ Overdrive Projector
+ Overdrive Dome
+ Force Projector
+ Shock Mine
+ Radar
+ Build Tower
+ Regen Projector
+ Shield Projector
+ Large Shield Projector
+ Shield Breaker (temp name/sprite)
+ Conveyor
+ Titanium Conveyor
+ Plastanium Conveyor
+ Armored Conveyor
+ Junction
+ Bridge Conveyor
+ Phase Conveyor
+ Sorter
+ Inverted Sorter
+ Router
+ Distributor
+ Overflow Gate
+ Underflow Gate
+ Mass Driver
+ Duct
+ Armored Duct
+ Duct Router
+ Overflow Duct
+ Duct Bridge
+ Surge Conveyor
+ Surge Router
+ Unit Cargo Loader
+ Unit Cargo Unload Point
+ Mechanical Pump
+ Rotary Pump
+ Impulse Pump / Thermal Pump
+ Conduit
+ Pulse Conduit
+ Plated Conduit
+ Liquid Router
+ Liquid Container
+ Liquid Tank
+ Liquid Junction
+ Bridge Conduit
+ Phase Conduit
+ Reinforced Pump
+ Reinforced Conduit
+ Reinforced Liquid Junction
+ Reinforced Bridge Conduit
+ Reinforced Liquid Router
+ Reinforced Liquid Container
+ Reinforced Liquid Tank
+ Power Node
+ Large Power Node
+ Surge Tower
+ Battery Diode
+ Battery
+ Large Battery
+ Combustion Generator
+ Thermal Generator
+ Steam Generator
+ Differential Generator
+ RTG Generator
+ Solar Panel
+ Large Solar Panel
+ Thorium Reactor
+ Impact Reactor
+ Beam Node
+ Beam Tower
+ Beam Link
+ Turbine Condenser
+ Chemical Combustion Chamber
+ Pyrolysis Generator
+ Mechanical Drill
+ Pneumatic Drill
+ Laser Drill
+ Airblast Drill
+ Water Extractor
+ Cultivator
+ Oil Extractor
+ Vent Condenser
+ Cliff Crusher
+ Plasma Bore
+ Large Plasma Bore
+ Impact Drill
+ Eruption Drill
+ Core: Shard
+ Core: Foundation
+ Core: Nucleus
+ Core: Bastion
+ Core: Citadel
+ Core: Acropolis
+ Container
+ Vault
+ Unloader
+ Reinforced Container
+ Reinforced Vault
+ Duo
+ Scatter
+ Scorch
+ Hail
+ Wave
+ Lancer
+ Arc
+ Parallax
+ Swarmer
+ Salvo
+ Segment
+ Tsunami
+ Fuse
+ Ripple
+ Cyclone
+ Foreshadow
+ Spectre
+ Meltdown
+ Breach
+ Diffuse
+ Sublimate
+ Titan
+ Disperse
+ ???
+ ???
+ ???
+ Command Center
+ Ground Factory
+ Air Factory
+ Naval Factory
+ Additive Reconstructor
+ Multiplicative Reconstructor
+ Exponential Reconstructor
+ Tetrative Reconstructor
+ Repair Point
+ Repair Turret
+ Tank Fabricator
+ Ship Fabricator
+ Mech Fabricator
+ Tank Refabricator
+ Mech Refabricator
+ Ship Refabricator
+ Prime Refabricator
+ Tank Assembler
+ Ship Assembler
+ Mech Assembler
+ Basic Assembler Module
+ Unit Repair Point
+ Payload Conveyor
+ Payload Router
+ Reinforced Payload Conveyor
+ Reinforced Payload Router
+ Payload Mass Driver
+ Payload Propulsion Tower
+ Small Deconstructor
+ Deconstructor
+ Constructor
+ Large Constructor
+ Payload Loader
+ Payload Unloader
+ Power Source
+ Power Void
+ Item Source
+ Item Void
+ Liquid Source
+ Liquid Void
+ Payload Source
+ Payload Void
+ Illuminator
+ Launch Pad
+ Interplanetary Accelerator
+ Message
+ Switch
+ Micro Processor
+ Logic Processor
+ Hyper Processor
+ Memory Cell
+ Memory Bank
+ Logic Display
+ Large Logic Display
+ Canvas
+ World Processor
+ World Cell
+
+Items
+ Copper
+ Lead
+ Plastanium
+ Phase Fabric
+ Surge Alloy
+ Spore Pod
+ Blast Compound
+ Pyratite
+ Beryllium
+ Tungsten
+ Oxide
+ Carbide
+ Metaglass
+ Graphite
+ Sand
+ Coal
+ Titanium
+ Thorium
+ Scrap
+ Silicon
+
+Liquids
+ Water
+ Slag
+ Cyanogen
+ Oil
+ Cryofluid
+ Arkycite
+ Ozone
+ Hydrogen
+ Nitrogen
+ Gallium
+ Neoplasm
+
+Planets
+ Erekir
+ Gier
+ Notva
+ Tantros
+ Serpulo
+ Verlius
+
+Statuses
+ Burning
+ Spore Slowed
+ Tarred
+ Overdrive
+ Overclock
+ Guardian
+ Shocked
+ Blasted
+ Freezing
+ Unmoving
+ Wet
+ Melting
+ Sapped
+ Electrified
+
+Extra Statuses
+ Slow
+ Shielded
+ Disarmed
+ Corroded
+ Muddy
+
+Units
+ Dagger
+ Mace
+ Crawler
+ Atrax
+ Spiroct
+ Arkyid
+ Toxopid
+ Flare
+ Horizon
+ Zenith
+ Antumbra
+ Eclipse
+ Fortress
+ Mono
+ Poly
+ Mega
+ Quad
+ Oct
+ Risso
+ Minke
+ Bryde
+ Sei
+ Omura
+ Scepter
+ Retusa
+ Oxynoe
+ Cyerce
+ Aegires
+ Navanax
+ Alpha
+ Beta
+ Gamma
+ Stell
+ Locus
+ Reign
+ Precept
+ Vanquish
+ Conquer
+ Merui
+ Cleroi
+ Anthicus
+ Tecta
+ Collaris
+ Elude
+ Nova
+ Avert
+ Obviate
+ Quell
+ Disrupt
+ Evoke
+ Incite
+ Emanate
+ Pulsar
+ Quasar
+ Vela
+ Corvus
+
+Unit Weapons
+ Anthicus Weapon Blade
+ Anthicus Weapon
+ Avert Weapon
+ Build Weapon
+ Cleroi Weapon
+ Collaris Weapon Blade
+ Collaris Weapon
+ Conquer Weapon Blade
+ Conquer Weapon
+ Conquer Weapon Sides
+ Disrupt Weapon Blade
+ Disrupt Weapon
+ Disrupt Weapon Preview
+ Elude Weapon
+ Incite Weapon
+ Locus Weapon
+ Precept Weapon
+ Quell Weapon
+ Stell Weapon
+ Tecta Weapon
+ Vanquish Point Weapon
+ Vanquish Weapon
