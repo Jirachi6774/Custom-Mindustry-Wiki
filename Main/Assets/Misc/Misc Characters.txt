@@ -1,0 +1,24 @@
+-/-/-/- Misc Unicode Characters -\-\-\-
+
+–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–
+
+"𐞂" - 'MODIFIER LETTER SUPERSCRIPT HALF TRIANGULAR COLON'
+Unicode - (U+10782)
+Source - "https://www.fileformat.info/info/unicode/char/10782/index.htm"
+Image Preview - "https://www.fileformat.info/info/unicode/char/10782/modifier_letter_superscript_half_triangular_colon.png"
+
+–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–
+
+" ࢝" - 'ARABIC SUPERSCRIPT ALEF MOKHASSAS'
+Unicode - (U+089D)
+Source - "https://www.fileformat.info/info/unicode/char/089d/index.htm"
+Image Preview - "https://www.fileformat.info/info/unicode/char/089d/arabic_superscript_alef_mokhassas.png"
+
+–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–
+
+"🅫" - 'RAISED MD SIGN'
+Unicode - (U+1F16B)
+Source - "https://www.fileformat.info/info/unicode/char/1f16b/index.htm"
+Image Preview - "https://www.fileformat.info/info/unicode/char/1f16b/raised_md_sign.png"
+
+–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–—–
