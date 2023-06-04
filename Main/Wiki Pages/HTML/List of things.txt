@@ -319,9 +319,11 @@ Blocks
  Sublimate
  Titan
  Disperse
- ???
- ???
- ???
+ Afflict
+ Lustre
+ Scathe
+ Smite
+ Malign
  Command Center
  Ground Factory
  Air Factory
